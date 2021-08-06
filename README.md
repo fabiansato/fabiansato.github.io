@@ -1,26 +1,26 @@
-# Clean Portfolio
+# Portfolio y página blog de Fabian Sato
 
-A clean and minimal jekyll theme for your portfolio website.
+Podés usar este portfolio rápido y fácilmente para tu proyecto
 
-## Installation
+## Instalación
 
-Add this line to your Jekyll site's `Gemfile`:
+Agrega esta linea dentro de tu página `Gemfile` dentro de tu sitio creado en Jekyll:
+
 
 ```ruby
 gem "jekyll-theme-clean-portfolio"
 ```
-
-And add this line to your Jekyll site's `_config.yml`:
+Y agregá esta linea en tu página  `_config.yml`:
 
 ```yaml
 theme: jekyll-theme-clean-portfolio
 ```
 
-And then execute:
+y luego ejecutá:
 
     bundle
 
-Or install it yourself as:
+O instalalo desde cero en:
 
     gem install jekyll-theme-clean-portfolio
 
@@ -31,7 +31,7 @@ Just create a repository named `<yourusername>.github.io` and then copy all file
 Make appropriate changes to the _config.yml file. The configuration is pretty trivial.
 
 ## Features:
-- Powered by Bootstrap 4
+- Con el poder de bootstrap 4
 - Resume generated using a canvas element and PDF.js
 - Support for diagrams using mermaid
 

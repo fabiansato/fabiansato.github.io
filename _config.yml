@@ -1,9 +1,9 @@
 # Site settings
-title: Your Name
-firstname: Your
-secondname: Name
-general_email: your_email@domain.com
-academic_email: academic_email@domain.com
+title: Fabian Sato
+firstname: Fabian
+secondname: Sato
+general_email: contacto@fabiansato.com
+
 
 description: > # this means to ignore newlines until "baseurl:"
   Give a brief description of yourself, and maybe your passion/interests. It is displayed in search results.
@@ -13,9 +13,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://adityawagh.ml" # the base hostname & protocol for your site
 
 # Contact info
-twitter_username: twitter_username
-github_username: github_username
-linkedin_username: linkedin_username
+twitter_username: https://twitter.com/codesato
+github_username: https://github.com/fabiansato
+linkedin_username: https://www.linkedin.com/in/fabian-gonzalez-481b2b19/
 resume_link: /assets/docs/dummy.pdf
 
 # Build settings

@@ -19,15 +19,15 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency"github-pages"
   spec.add_development_dependency"jekyll-menus"
   spec.add_development_dependency"jekyll-seo-tag"
-  spec.add_development_dependency"jekyll-remote-theme" 
+  spec.add_development_dependency"jekyll-remote-theme"
   spec.add_development_dependency"jekyll-archives"
-  spec.add_development_dependency"jekyll-compose" 
+  spec.add_development_dependency"jekyll-compose"
   spec.add_development_dependency"jekyll-assets"
   spec.add_development_dependency"jemoji"
   spec.add_development_dependency"jekyll-youtube"
   spec.add_development_dependency"jekyll-font-awesome-sass"
   spec.add_development_dependency"jekyll-theme-primer"
-  spec.add_development_dependency'bootstrap', '>= 4.3.1'
+  spec.add_development_dependency'bootstrap', '>= 5.1.0'
   spec.add_development_dependency"rack", ">= 2.0.8"
   spec.add_development_dependency'jekyll-autoprefixer'
 
