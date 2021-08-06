@@ -1,32 +1,30 @@
 ---
-layout: blog
-title: Blog
+layout: default
 permalink: /blog/
 ---
 
-<div class="container mtb">
-    <div class="row">
+<div class="d-flex justify-content-center"><h1>Blog</h1></div>
+Here are my carefully compiled views on some topics that I encountered so far. Hopefully, you will find them helpful!
+You can also search my posts by category <a href="{{ site.baseurl }}/categories/">here</a>.<br><br>
 
-        <!-- BLOG POSTS LIST -->
-        <div class="col-lg-8">
+{%- if site.posts.size > 0 -%}
+<ul>
+  {%- for post in site.posts -%}
+  <li>
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <span>{{ post.date | date: date_format }}</span>
+    <h3 class="mt-0">
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </h3>
+    {%- if site.show_excerpts -%}
+    {{ post.excerpt }}
+    {%- endif -%}
+  </li>
+  {%- endfor -%}
+</ul>
 
-            {% for post in site.posts %}
-                <!-- Blog Post -->
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                    <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
-                </a>
-                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
-                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
-                {{ post.excerpt }}
-                <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
-                <div class="hline"></div>
+{%- endif -%}
 
-                <div class="spacing"></div>
-            {% endfor %}
-
-        </div><!--/col-lg-8 -->
-
-        {% include sidebar.html %}
-
-    </div><!--/row -->
-</div><!--/container -->
+</div>
