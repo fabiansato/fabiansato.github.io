@@ -1,30 +1,46 @@
 ---
-layout: default
-permalink: /blog/
+layout: page
+tagline: Just
+title: Read Our <strong>Blog</strong>
 ---
 
-<div class="d-flex justify-content-center"><h1>Blog</h1></div>
-Here are my carefully compiled views on some topics that I encountered so far. Hopefully, you will find them helpful!
-You can also search my posts by category <a href="{{ site.baseurl }}/categories/">here</a>.<br><br>
+{% for post in site.posts %}
 
-{%- if site.posts.size > 0 -%}
-<ul>
-  {%- for post in site.posts -%}
-  <li>
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    <span>{{ post.date | date: date_format }}</span>
-    <h3 class="mt-0">
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
-      </a>
-    </h3>
-    {%- if site.show_excerpts -%}
-    {{ post.excerpt }}
-    {%- endif -%}
-  </li>
-  {%- endfor -%}
-</ul>
+  <!-- Blog Article -->
+  <div class="post-full">
+    <article class="blog-article clearfix">
 
-{%- endif -%}
+      <!-- Article Header -->
+      <header class="article-header">
+        <div class="img-wrap">
+          <img src="{{ site.baseurl }}/images/blog/{{ post.image }}" alt="Article Blog Image">
+        </div>
+        <div class="article-title">
+          <h3 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+          <h4 class="category">{{ post.categories | first }}</h4>
+        </div>
+      </header>
 
-</div>
+      <!-- Article Content -->
+      <div class="article-content">
+        <div class="article-date text-center">
+          <div class="date parent">
+            <div class="date-wrap child-center">
+              <div class="day">{{ post.date | date: "%d" }}</div>
+              <div class="month">{{ post.date | date: "%b" }}</div>
+            </div>
+          </div>
+          <div class="time">{{ post.date | date: "%H:%M" }}</div>
+        </div>
+        <div class="article-text">
+          {{ post.content | truncatewords:75 }}
+        </div>
+        <div class="show-more">
+          <a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a>
+        </div>
+      </div>
+
+    </article>
+  </div>
+
+{% endfor %}

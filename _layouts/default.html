@@ -1,16 +1,21 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html >
+<html lang="{{ site.lang }}">
 
-    {% include head.html %}
+  {% include head.html %}
 
-    <body>
-        {% include header.html %}
-        <div class="container pt-4 pb-3" style="max-width: calc(1000px - (30px * 2));">
-            <div class="container">
-                {{ content }}
-            </div>
-        </div>
-    </body>
+  <body>
+
+    <!-- Page Loader -->
+    <div id="page-loader" class="page-loader"><span class="load-icon"></span></div>
+
+    {% include header.html %}
+
+    {{ content }}
+
     {% include footer.html %}
+
+    {% include scripts.html %}
+
+  </body>
 
 </html>

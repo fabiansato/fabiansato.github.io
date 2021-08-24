@@ -1,54 +1,49 @@
-# Portfolio y página blog de Fabian Sato
-
-Podés usar este portfolio rápido y fácilmente para tu proyecto
-
-## Instalación
-
-Agrega esta linea dentro de tu página `Gemfile` dentro de tu sitio creado en Jekyll:
-
-
-```ruby
-gem "jekyll-theme-clean-portfolio"
 ```
-Y agregá esta linea en tu página  `_config.yml`:
-
-```yaml
-theme: jekyll-theme-clean-portfolio
+=================================================
+=====     jekyll-gulp-sass-browser-sync     =====
+=================================================
 ```
+A project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
 
-y luego ejecutá:
+## System Preparation
 
-    bundle
+To use this project, you'll need the following things installed on your machine.
 
-O instalalo desde cero en:
+1. [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`
+2. [Jekyll-Archives](http://jekyllrb.com) - `$ bundle install`
+3. [NodeJS](http://nodejs.org) - use the installer.
+4. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
 
-    gem install jekyll-theme-clean-portfolio
+## Local Installation
+
+1. Inside the directory, run `npm install`.
+2. Enjoy
 
 ## Usage
 
-Just create a repository named `<yourusername>.github.io` and then copy all files from this repostory into that repository
+**development mode**
 
-Make appropriate changes to the _config.yml file. The configuration is pretty trivial.
+This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.
 
-## Features:
-- Con el poder de bootstrap 4
-- Resume generated using a canvas element and PDF.js
-- Support for diagrams using mermaid
+```shell
+$ gulp
+```
 
-## Contributing
+**jekyll**
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/ad1tyawagh/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+As this is just a Jekyll project, you can use any of the commands listed in their [docs](http://jekyllrb.com/docs/usage/)
 
-## Development
+## Deploy with Gulp
 
-To set up your environment to develop this theme, run `bundle install`.
+You can easily deploy your site build to a gh-pages branch. First, follow the instructions at [gulp-gh-pages](https://github.com/rowoot/gulp-gh-pages) to get your branch prepared for the deployment and to install the module. Then, in `gulpfile.js` you'll want to include something like the code below. `gulp.src()` needs to be the path to your final site folder, which by default will be `_site`. If you change the `destination` in your `_config.yml` file, be sure to reflect that in your gulpfile.
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `jekyll-theme-clean-portfolio.gemspec` accordingly.
 
-## License
+```javascript
+var deploy = require("gulp-gh-pages");
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
+gulp.task("deploy", ["jekyll-build"], function () {
+    return gulp.src("./_site/**/*")
+        .pipe(deploy());
+});
+```

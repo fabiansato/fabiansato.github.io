@@ -1,30 +1,41 @@
-<footer>
-    <div class="container" style="max-width: calc(1000px - (30px * 2));">
-        <hr>
-            <ul class="d-flex d-md-none mt-4">
-                <li class="mx-auto">
-                    <a href="https://github.com/{{ site.github_username }}" title="View my GitHub profile">
-                        <i class="fab fa-github" style="font-size: 2rem; color: #000;"></i>
-                    </a>
-                </li>
+<!-- Site Footer -->
+<footer class="site-footer" id="footer">
+  <div class="container">
 
-                <li class="mx-auto">
-                    <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="View my LinkedIn profile">
-                        <i class="fab fa-linkedin" style="font-size: 2rem; color: #0077b5;"></i>
-                    </a>
-                </li>
+    <div class="row">
+      <div class="col-md-6 col-md-push-3 footer-info text-center">
 
-                <li class="mx-auto">
-                    <a href="https://twitter.com/{{ site.twitter_username }}" title="Tweet at me">
-                        <i class="fab fa-twitter" style="font-size: 2rem; color: #55acee;"></i>
-                    </a>
-                </li>
-
-                <li class="mx-auto">
-                    <a href="mailto:aditya@adityawagh.ml" title="Email Me">
-                        <i class="fas fa-at" style="font-size: 2rem;"></i>
-                    </a>
-                </li>
-            </ul>
+        <div class="footer-logo">
+          <img src="{{ site.baseurl }}/images/logo-focus.svg" width="140" alt="Sera - OnePage Logo by Gleesik" />
         </div>
-    </footer>
+
+        <div class="footer-info-text">
+          <p>{{ site.footer-description }}</p>
+        </div>
+
+        <div class="social-icons">
+          <ul class="icons">
+            <li><a href="{{ site.youtube }}" target="_blank"><i class="fi flaticon-youtube"></i></a></li>
+            <li><a href="{{ site.pinterest }}" target="_blank"><i class="fi flaticon-pinterest"></i></a></li>
+            <li><a href="{{ site.facebook }}" target="_blank"><i class="fi flaticon-facebook"></i></a></li>
+            <li><a href="{{ site.twitter }}" target="_blank"><i class="fi flaticon-twitter"></i></a></li>
+            <li><a href="{{ site.google-plus }}" target="_blank"><i class="fi flaticon-google-plus"></i></a></li>
+            <li><a href="{{ site.vimeo }}" target="_blank"><i class="fi flaticon-vimeo"></i></a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="col-md-8 col-md-push-2 footer-copyright">
+        <div class="footer-text text-center">
+          <p>All Right Reserved!</p>
+        <p><a href="{{ site.footer-copyright-url }}">{{ site.footer-copyright-text }}</a> &copy; {{ site.footer-copyright-year }} Copyright</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<!-- Go To Top Button -->
+<a href="#home" class="go-to-top-button"><i class="pe-7s-angle-up"></i></a>
