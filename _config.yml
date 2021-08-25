@@ -47,13 +47,13 @@ jekyll-archives:
 #######################################################
 
 # This is your site title
-title: Sera - OnePage Multi-Purpose Theme
+title: FabianSato - Webmaster Senior
 # Website language
-lang: en-US
+lang: es
 # Header Title
-header-title: Create the <strong>Impossible</strong>
+header-title: Para aprender a <strong>Programar</strong>
 # Header Tagline
-headter-tagline: We Always
+headter-tagline: Nunca es tarde
 
 ####################################
 ######   CTA Header Buttons   ######
@@ -452,7 +452,7 @@ contact-description: Nulla a tellus at turpis gravida congue non interdum et mal
 #####################################
 #############   Footer   ############
 #####################################
-footer-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
-footer-copyright-text: Gleesik&trade;
-footer-copyright-url: http://gleesik.ro/
-footer-copyright-year: 2016
+footer-description: ¡Nunca es tarde para aprender a programar!. FabianSato Licenciatura en Sistemas UNGS - Programación UTN
+footer-copyright-text: FabianSato;
+footer-copyright-url: http://fabiansato.com
+footer-copyright-year: 2021
