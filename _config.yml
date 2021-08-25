@@ -83,12 +83,11 @@ banner-link: https://themeforest.net/collections/6069390-sera
 ####################################
 ######  Global Social Links   ######
 ####################################
-youtube: '#'
-pinterest: '#'
-facebook: '#'
-twitter: '#'
-google-plus: '#'
-vimeo: '#'
+youtube: 'https://www.youtube.com/channel/UCXvmfLwOtwZS845_-WBFnnQ'
+
+facebook: 'https://www.facebook.com/codesato/'
+twitter: 'https://twitter.com/soyfabiansato'
+
 
 #########################
 ######   Widgets   ######
