@@ -61,8 +61,8 @@ headter-tagline: Nunca es tarde
 
 # Focus Buttons
 header-focus-button:
-  title: Download Now
-  url: https://themeforest.net/collections/6069390-sera
+  title: Contactame
+  url: https://api.whatsapp.com/send?phone=5491128973151
 
 # Secondary Buttons
 header-secondary-button:
@@ -444,7 +444,7 @@ plan-ultimate-url: '#'
 #####################################
 ############   Contact   ############
 #####################################
-contact-title: Contact Us
+contact-title: Contactactame
 contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
 
 
