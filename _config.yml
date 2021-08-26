@@ -66,15 +66,15 @@ header-focus-button:
 
 # Secondary Buttons
 header-secondary-button:
-  title: Discover More
-  url: http://themeforest.net/user/gleesik
+  title: Lee los articulos
+  url: https://fabiansato.github.io/blog.html
 
 #
 # This is your email adress, contact from send here all emails from contact section
 # IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
 # To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
 #
-email: your_email@example.com
+email: fabiansato@gmail.com
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
@@ -84,7 +84,6 @@ banner-link: https://themeforest.net/collections/6069390-sera
 ######  Global Social Links   ######
 ####################################
 youtube: 'https://www.youtube.com/channel/UCXvmfLwOtwZS845_-WBFnnQ'
-
 facebook: 'https://www.facebook.com/codesato/'
 twitter: 'https://twitter.com/soyfabiansato'
 
@@ -98,15 +97,14 @@ twitter: 'https://twitter.com/soyfabiansato'
 #
 about-widget:
   author-avatar: avatar-02.jpg
-  author-name: John Doe
-  author-tagline: Blog Author
+  author-name: Fabian sato
+  author-tagline: Creador
   author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies.
   author-social-links:
-    youtube: '#'
-    pinterest: '#'
-    facebook: '#'
-    twitter: '#'
-    google-plus: '#'
+    youtube: 'https://www.youtube.com/channel/UCXvmfLwOtwZS845_-WBFnnQ'
+    facebook: 'https://www.facebook.com/codesato/'
+    twitter: 'https://twitter.com/soyfabiansato'
+
 
 # Google Map JS api
 # This is my api for this template
