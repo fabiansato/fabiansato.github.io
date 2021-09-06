@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "How to tell a story"
+title:  "12 Cool tips in design"
 tagline: Single Page
-date: 2016-05-26 13:23
-categories: [Storyline]
-tags: [Storyline, How To, Tips]
-image: img-03.jpg
+date: 2016-05-02 15:32
+categories: [Web Design]
+tags: [Web, Design, Tips & Tricks, Tips]
+image: img-01.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum condimentum justo, rhoncus ullamcorper orci dapibus eget. Aliquam id efficitur lacus. Donec ac mattis ante. Nam vehicula turpis augue. Aliquam erat volutpat.

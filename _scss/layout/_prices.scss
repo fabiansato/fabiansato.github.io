@@ -2,7 +2,7 @@
  *
  *  Prices Section Style
  *
- *  @package gleesik_layout
+ *  @package ohkimur_layout
  *
  **/
 
@@ -157,7 +157,7 @@ section.prices-section {
 
       // Hover Mode
       &:hover {
-        box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.52);
+        box-shadow: 0px 4px 9px 0px $shadow-color;
       }
 
     }
