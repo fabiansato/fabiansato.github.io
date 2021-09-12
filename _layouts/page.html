@@ -1,33 +1,30 @@
 ---
-layout: default
+layout: compress
 ---
 
-<div class="container">
-  <div class="page-head">
-    <h1 class="page-title">{{ page.title }}</h1>
-  </div>
-</div>
+<!DOCTYPE html>
+<html>
+{% include head.html %}
 
-{% if page.image %}
-<div class="container">
-  <div class="row">
-    <div class="col col-12">
-      <div class="page-image">
-        <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
-      </div>
-    </div>
-  </div>
-</div>
-{% endif %}
+<body>
+    {% include navbar.html %}
+    <section class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container has-text-centered" id="page-section">
+                <div class="section">
+                    <h1 class="title is-1 is-uppercase has-text-weight-bold">
+                        {{page.title}}
+                    </h1>
+                    <hr class="has-background-black">
+                    <div class="content is-marginless">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer begins here-->
+    {% include footer.html %}
+</body>
 
-<!-- begin page -->
-<div class="container">
-  <article class="page animate">
-
-    <div class="page__content">
-      {{ content }}
-    </div>
-
-  </article>
-</div>
-<!-- end page -->
+</html>
