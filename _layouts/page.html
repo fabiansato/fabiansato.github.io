@@ -1,45 +1,33 @@
-<!DOCTYPE html >
-<html lang="{{ site.lang }}">
+---
+layout: default
+---
 
-  {% include head.html %}
+<div class="container">
+  <div class="page-head">
+    <h1 class="page-title">{{ page.title }}</h1>
+  </div>
+</div>
 
-  <body>
-
-    <!-- Page Loader -->
-    <div id="page-loader" class="page-loader"><span class="load-icon"></span></div>
-
-    {% include header-page.html %}
-
-    <!-- Page Section -->
-    <section class="site-section blog-section page-layout" id="start">
-      <div class="container">
-
-        <!-- Page Layout -->
-        <div class="row">
-
-          <!-- Sidebar -->
-          <div class="col-md-4 hidden-xs hidden-sm">
-
-            {% include sidebar.html %}
-
-          </div>
-
-          <!-- Content -->
-          <div class="col-md-8 blog-articles-container">
-
-            {{ content }}
-
-          </div>
-
-        </div>
-
+{% if page.image %}
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="page-image">
+        <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
       </div>
-    </section>
+    </div>
+  </div>
+</div>
+{% endif %}
 
-    {% include footer.html %}
+<!-- begin page -->
+<div class="container">
+  <article class="page animate">
 
-    {% include scripts.html %}
+    <div class="page__content">
+      {{ content }}
+    </div>
 
-  </body>
-
-</html>
+  </article>
+</div>
+<!-- end page -->

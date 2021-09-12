@@ -1,42 +1,21 @@
-<!-- Site Footer -->
-<footer class="site-footer" id="footer">
-  <div class="container">
+<!-- begin footer -->
+<footer class="footer">
 
-    <div class="row">
-      <div class="col-md-6 col-md-push-3 footer-info text-center">
-
-        <div class="footer-logo">
-          <img src="{{ site.baseurl }}/images/logo-focus.svg" width="140" alt="Sera - OnePage Logo by Ohkimur" />
-        </div>
-
-        <div class="footer-info-text">
-          <p>{{ site.footer-description }}</p>
-        </div>
-
-        <div class="social-icons">
-          <ul class="icons">
-            <li><a href="{{ site.youtube }}" target="_blank"><i class="fi flaticon-youtube"></i></a></li>
-            <li><a href="{{ site.pinterest }}" target="_blank"><i class="fi flaticon-pinterest"></i></a></li>
-            <li><a href="{{ site.facebook }}" target="_blank"><i class="fi flaticon-facebook"></i></a></li>
-            <li><a href="{{ site.twitter }}" target="_blank"><i class="fi flaticon-twitter"></i></a></li>
-            <li><a href="{{ site.google-plus }}" target="_blank"><i class="fi flaticon-google-plus"></i></a></li>
-            <li><a href="{{ site.vimeo }}" target="_blank"><i class="fi flaticon-vimeo"></i></a></li>
-          </ul>
-        </div>
-
-      </div>
-
-      <div class="col-md-8 col-md-push-2 footer-copyright">
-        <div class="footer-text text-center">
-          <p>All Right Reserved!</p>
-          <p><a href="{{ site.footer-copyright-url }}">{{ site.footer-copyright-text }}</a> &copy; {{
-            site.footer-copyright-year }} Copyright</p>
-        </div>
+  {% if site.data.settings.cover__image %}
+    <div class="footer-cover">
+      <div class="cover-image">
+        <img class="lazy" data-src="{{site.data.settings.cover__image}}" alt="{{site.data.settings.title}}">
       </div>
     </div>
+  {% endif %}
 
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        {% include social-link.html %}
+        <div class="copyright">&copy; {{site.time | date: '%Y'}}. Built by <a href="https://atom-morgan.github.io/">Adam Morgan</a>.</div>
+      </div>
+    </div>
   </div>
 </footer>
-
-<!-- Go To Top Button -->
-<a href="#home" class="go-to-top-button"><i class="pe-7s-angle-up"></i></a>
+<!-- end footer -->

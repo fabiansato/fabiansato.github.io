@@ -1,28 +1,30 @@
-# Sera - Jekyll Theme
+# Avenco - Creative Portfolio Theme for Jekyll
 
-## System Preparation
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b81e1c88-a527-4fd7-a9ab-00dd818a81be/deploy-status)](https://app.netlify.com/sites/vibrant-kirch-7119c2/deploys)
 
-To use this project, you'll need the following things installed on your machine.
+Avenco is a modern and minimal portfolio theme for Jekyll. This theme was specially created to help show your work in a simple yet creative way. Also, the Avenco theme includes several basic and easily customizable sections such as Works, Testimonials, Blog, Contact and therefore will be a good choice for any freelancer, designer, or developer.
 
-1. [Jekyll](http://jekyllrb.com/docs/) - `$ gem install jekyll bundler`
-2. [Jekyll-Gems](http://jekyllrb.com/docs/) - `$ bundle install`
+* * *
 
-## Usage
+### Demo
 
-Since this is a Jekyll theme, every command described in the [Jekyll documentation](https://jekyllrb.com/docs/) is avaialable.
+Check the theme in action [Demo](https://avenco.netlify.app/)
 
-### Development
+* * *
 
-To start the development workflow, run:
+### Deployment
 
-```
-bundle exec jekyll serve --livereload
-```
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
 
-### Production
+I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
 
-To build the project, run:
 
-```
-bundle exec jekyll build
-```
+* * *
+
+### Documentation
+
+Before using the Avenco theme, please read the attached documentation.
+
+### Support
+
+<p>If you have any questions, please feel free to contact me by mail <a href="mailto:artemsheludko@tuta.io">Contact</a><p>
