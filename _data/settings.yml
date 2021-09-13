@@ -39,10 +39,12 @@ cover__image: '/images/cover-image.jpg'
 
 author:
   name: Fabian Sato
-  title: Hola soy Fabian Sato
+  title: 👋Hola soy Fabian Sato
   # bio: Art Director & Graphic Designer based in Australia, crafting beautiful and functional websites and mobile apps. When I’m not working, I’m probably listening to relaxing music or traveling somewhere.
   bio: "
-   Al haber estudiado Diseño gráfico y con el titulo de Programación Fullstack de la Universidad Tecnológica Nacional (UTN) hago una mixtura de ambos conocimientos y realizo trabajos de desarrollo web fullstacl (front-end como backend).<br/><br/>
+   <b>Desarrollador Web Senior</b> en <b>Unilever</b> con plataforma Adobe Experience Manager (AEM).
+<b>Tecnologías</b>: HTML, CSS, Javascript, PHP, Mysql, Reactjs, NodeJS.<br/>
+<b>Títulos</b>: de diseñador gráfico digital y Fullstack Developer + React (Universidad Tecnológica nacional) .<br/><br/>
      Me gusta practicar código y mejorar día a día. Además me encanta muchisimo el mundo Geek 🤓"
   image: '/images/sato-avatar-full.png'
   avatar: '/images/sato-avatar.png'
