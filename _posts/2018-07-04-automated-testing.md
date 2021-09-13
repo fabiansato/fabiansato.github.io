@@ -54,7 +54,7 @@ touch webdev-testing.js
 
 To test our code we'll need to leverage a testing framework. A testing framework provides us the tools we need to test our code without having to write all of it ourselves. The one we'll be using for this tutorial is [Jasmine](https://jasmine.github.io/){:target="_blank"}.
 
-Since our code has a dependency, Jasmine, we'll start by creating a `package.json` file using the `npm init` command (npm was installed way back when we installed Node.js in [Code Companion #2](https://atom-morgan.github.io/hello-world-in-javascript/){:target="_blank"}). Run the following command in the `webdev-testing` directory.
+Since our code has a dependency, Jasmine, we'll start by creating a `package.json` file using the `npm init` command (npm was installed way back when we installed Node.js in [Code Companion #2](https://fabiansato.github.io/hello-world-in-javascript/){:target="_blank"}). Run the following command in the `webdev-testing` directory.
 
 ```console
 npm init
@@ -171,7 +171,7 @@ With the value of `myValue` updated to `false` we can now run Jasmine again with
 
 ## Updating Date
 
-Let's continue by writing a test for a new and better `Date`, specifically a function to provide us with the current day of the week in English as we did in [Code Companion #5](https://atom-morgan.github.io/functions/){:target="_blank"}.
+Let's continue by writing a test for a new and better `Date`, specifically a function to provide us with the current day of the week in English as we did in [Code Companion #5](https://fabiansato.github.io/functions/){:target="_blank"}.
 
 First, we'll start by writing a failing (red) test for our code.
 
@@ -210,7 +210,7 @@ describe('BetterDate', function() {
 });
 ```
 
-In this constructor function is a `now` property that's set to an instance of `Date` using the `date` parameter. Then we define the `getDay` function with an implementation that should look similar to one we wrote in [Code Companion #5](https://atom-morgan.github.io/functions/){:target="_blank"}.
+In this constructor function is a `now` property that's set to an instance of `Date` using the `date` parameter. Then we define the `getDay` function with an implementation that should look similar to one we wrote in [Code Companion #5](https://fabiansato.github.io/functions/){:target="_blank"}.
 
 Run `jasmine` and you should now see this test in a passing (green) state.
 
@@ -314,44 +314,44 @@ let Trainer = require('../trainer');
 
 describe('Trainer', function() {
   it('should have a name', function() {
-    let trainer = new Trainer('Adam');
-    expect(trainer.identify()).toEqual('Trainer is Adam');
+    let trainer = new Trainer('Fabian');
+    expect(trainer.identify()).toEqual('Trainer is Fabian');
   });
 
   it('should capitalize the trainer\'s name', function() {
-    let trainer = new Trainer('adam');
-    expect(trainer.identify()).toEqual('Trainer is Adam');
+    let trainer = new Trainer('Fabian');
+    expect(trainer.identify()).toEqual('Trainer is Fabian');
   });
 
   it('should have tasks', function() {
-    let trainer = new Trainer('adam', ['Get a Pokemon']);
+    let trainer = new Trainer('Fabian', ['Get a Pokemon']);
     expect(trainer.printTasks()).toEqual('Remaining tasks: Get a Pokemon');
   });
 
   it('should default to an empty array if no tasks are provided', function() {
-    let trainer = new Trainer('adam');
+    let trainer = new Trainer('Fabian');
     expect(trainer.tasks).toEqual([]);
   });
 
   it('should print a message if no tasks remain', function() {
-    let trainer = new Trainer('adam');
+    let trainer = new Trainer('Fabian');
     expect(trainer.printTasks()).toEqual('No tasks left!');
   });
 
   it('should add new tasks to the tasks array', function() {
-    let trainer = new Trainer('adam', ['Get a Pokemon']);
+    let trainer = new Trainer('Fabian', ['Get a Pokemon']);
     trainer.addTask('Visit Professor Oak');
     expect(trainer.printTasks()).toEqual('Remaining tasks: Get a Pokemon, Visit Professor Oak');
   });
 
   it('should remove a task from a tasks', function() {
-    let trainer = new Trainer('adam', ['Get a Pokemon', 'Visit Professor Oak']);
+    let trainer = new Trainer('Fabian', ['Get a Pokemon', 'Visit Professor Oak']);
     trainer.removeTask('Get a Pokemon');
     expect(trainer.printTasks()).toEqual('Remaining tasks: Visit Professor Oak');
   });
 
   it('should verify the task exists before attempting to remove it', function() {
-    let trainer = new Trainer('adam', ['Get a Pokemon', 'Visit Professor Oak']);
+    let trainer = new Trainer('Fabian', ['Get a Pokemon', 'Visit Professor Oak']);
     trainer.removeTask('Beat Brock');
     expect(trainer.printTasks()).toEqual('Remaining tasks: Get a Pokemon, Visit Professor Oak');
   });

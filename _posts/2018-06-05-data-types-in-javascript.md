@@ -20,7 +20,7 @@ style: code
 
 ## Introduction
 
-In the [previous tutorial](http://atom-morgan.github.io/hello-world-in-javascript/){:target="_blank"} we took our first look at JavaScript by writing three variations of a "Hello, world" program using JavaScript in a `.html` file, JavaScript in a REPL, and finally JavaScript in a `.js` file. In those programs we briefly introduced the concept of a string by passing the string `Hello, world!` to `console.log()`.
+In the [previous tutorial](http://atom-Sato.github.io/hello-world-in-javascript/){:target="_blank"} we took our first look at JavaScript by writing three variations of a "Hello, world" program using JavaScript in a `.html` file, JavaScript in a REPL, and finally JavaScript in a `.js` file. In those programs we briefly introduced the concept of a string by passing the string `Hello, world!` to `console.log()`.
 
 In this tutorial we're going to take another look at the JavaScript we wrote and introduce some of the other data types that are available to us.
 
@@ -34,7 +34,7 @@ You can add comments in JavaScript using one of two ways.
 
 ```javascript
 // Log a name
-console.log('Adam');
+console.log('Fabian');
 ```
 
 This is what's known as a single line comment. Just like our HTML comments this text is ignored when we run our code and it's invisible to the user. It's only visible to us and any other developers who look at this code.
@@ -45,7 +45,7 @@ Sometimes you just
 need a little extra
 room :)
 */
-console.log('Adam');
+console.log('Fabian');
 ```
 
 This is a multi-line comment. If a single line comment is getting a bit too long, use this syntax.
@@ -112,8 +112,8 @@ We've already been working with strings up to this point but it is worth mention
 First, you can create strings in JavaScript using either single or double quotes.
 
 ```javascript
-let firstName = 'Adam'; // single
-let lastName = "Morgan"; // double
+let firstName = 'Fabian'; // single
+let lastName = "Sato"; // double
 console.log(firstName);
 console.log(lastName);
 ```
@@ -251,14 +251,14 @@ console.log(favoriteFruits[2]);
 Finally we have the powerhouse of JavaScript data types: the object. Objects are a list of property names and values enclosed in curly braces (`{}`). They're somewhat similar to arrays but rather than using integers as an index, objects use strings.
 
 ```javascript
-let userObject = { name: 'Adam', age: 28, favoriteFruits: ['mango', 'raspberry', 'blueberry'] };
+let userObject = { name: 'Fabian', age: 28, favoriteFruits: ['mango', 'raspberry', 'blueberry'] };
 ```
 
 We can format this object into a more readable form with each property on a new line.
 
 ```javascript
 let userObject = {
-  name: 'Adam',
+  name: 'Fabian',
   age: 28,
   favoriteFruits: ['mango', 'raspberry', 'blueberry']
 };
@@ -270,12 +270,12 @@ We can access these values using what's known as dot notation.
 
 ```javascript
 let userObject = {
-  name: 'Adam',
+  name: 'Fabian',
   age: 28,
   favoriteFruits: ['mango', 'raspberry', 'blueberry']
 };
 
-console.log(userObject.name); // Adam
+console.log(userObject.name); // Fabian
 console.log(userObject.age); // 28
 console.log(userObject.favoriteFruits); // [ 'mango', 'raspberry', 'blueberry' ]
 console.log(userObject.favoriteFruits[0]); // mango
@@ -285,12 +285,12 @@ Similar to arrays you can also use bracket notation to access the values but dot
 
 ```javascript
 let userObject = {
-  name: 'Adam',
+  name: 'Fabian',
   age: 28,
   favoriteFruits: ['mango', 'raspberry', 'blueberry']
 };
 
-console.log(userObject['name']); // Adam
+console.log(userObject['name']); // Fabian
 console.log(userObject['age']); // 28
 console.log(userObject['favoriteFruits']); // [ 'mango', 'raspberry', 'blueberry' ]
 console.log(userObject['favoriteFruits'][0]); // mango
@@ -300,7 +300,7 @@ You can even nest objects *within* other objects.
 
 ```javascript
 let userObject = {
-  name: 'Adam',
+  name: 'Fabian',
   age: 28,
   favoriteFruits: ['mango', 'raspberry', 'blueberry'],
   car: {
@@ -325,7 +325,7 @@ We'll start with an example using our previous `userObject` and the `age` proper
 
 ```javascript
 let userObject = {
-  name: 'Adam',
+  name: 'Fabian',
   age: 28,
   favoriteFruits: ['mango', 'raspberry', 'blueberry'],
   car: {
@@ -357,7 +357,7 @@ The operators we saw earlier (`+`, `-`, `*`, `/`) are known as [arithmetic opera
 So what is meant by a condition evaluating to a "truthy" or "falsy" value? Let's take a look at this example.
 
 ```javascript
-let user = 'Adam';
+let user = 'Fabian';
 
 if (user) {
   console.log('Goodbye, ' + user + '!');
@@ -366,7 +366,7 @@ if (user) {
 }
 ```
 
-Run this program and you should see `Goodbye, Adam!` printed to the screen.
+Run this program and you should see `Goodbye, Fabian!` printed to the screen.
 
 <div class="box" markdown="1">
 Just a minute ago a link was provided containing a complete list of [arithmetic operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators) including `+`. However, we can see in the example above that the `+` operator is being used with strings.
@@ -429,7 +429,7 @@ A slightly modified `userObject` is below with a few `console.log()` statements 
 
 ```javascript
 let userObject = {
-  name: 'Adam',
+  name: 'Fabian',
   age: 28,
   favoriteFruits: ['mango', 'raspberry', 'blueberry'],
   car: {
@@ -455,6 +455,6 @@ console.log(userObject.computer[0].manufacturer); // ?
 console.log(userObject.computer[1].manufacturer); // ?
 ```
 
-In the [next tutorial](http://atom-morgan.github.io/properties-and-methods/){:target="_blank"} we'll take a look at some of the properties provided to us by data types. We'll also take a closer look at functions by writing some of our own.
+In the [next tutorial](http://atom-Sato.github.io/properties-and-methods/){:target="_blank"} we'll take a look at some of the properties provided to us by data types. We'll also take a closer look at functions by writing some of our own.
 
 {% include book-plug.html %}

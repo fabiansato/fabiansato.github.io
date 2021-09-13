@@ -288,7 +288,7 @@ Now you should be able to type into your form, remove values, and see error mess
 
 At this point our form is complete but it could use some visual work.
 
-> Since this is outside the scope of this tutorial I won't explain everything in detail but you can read my Bulma tutorial [here](https://atom-morgan.github.io/styling-angular-v6-apps-with-bulma/){:target="_blank"}.
+> Since this is outside the scope of this tutorial I won't explain everything in detail but you can read my Bulma tutorial [here](https://fabiansato.github.io/styling-angular-v6-apps-with-bulma/){:target="_blank"}.
 
 First, we'll update our template with some of Bulma's classes.
 
@@ -370,6 +370,6 @@ Restart your app using `ng serve`, open it up in a browser, and you should see y
 
 You've now learned the basics of template-driven forms in Angular. In the next tutorial we'll recreate this form using Angular's reactive form approach.
 
-If you found this valuable and would like to see more, feel free to let me know <a href="https://twitter.com/atommorgan" target="_blank">on Twitter</a>.
+If you found this valuable and would like to see more, feel free to let me know <a href="https://twitter.com/atomSato" target="_blank">on Twitter</a>.
 
 {% include book-plug.html %}

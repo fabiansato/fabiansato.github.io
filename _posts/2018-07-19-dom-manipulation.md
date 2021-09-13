@@ -33,7 +33,7 @@ mkdir dom-manipulation
 cd dom-manipulation
 ```
 
-Within this directory we'll create two new files, an HTML file and a JavaScript file similar to what we did way back in [Code Companion #2](https://atom-morgan.github.io/hello-world-in-javascript/){:target="_blank"}.
+Within this directory we'll create two new files, an HTML file and a JavaScript file similar to what we did way back in [Code Companion #2](https://fabiansato.github.io/hello-world-in-javascript/){:target="_blank"}.
 
 ```console
 touch main.js index.html
@@ -62,7 +62,7 @@ First we'll start with a simple HTML page.
 </html>
 ```
 
-The noteworthy part here is the `script` element (sometimes referred to as tags) with the `src` attribute set to the `main.js` file we created. Unlike our `script` tag in [Code Companion #2](https://atom-morgan.github.io/hello-world-in-javascript/){:target="_blank"}, we'll be writing our JavaScript in a separate file.
+The noteworthy part here is the `script` element (sometimes referred to as tags) with the `src` attribute set to the `main.js` file we created. Unlike our `script` tag in [Code Companion #2](https://fabiansato.github.io/hello-world-in-javascript/){:target="_blank"}, we'll be writing our JavaScript in a separate file.
 
 <div class="box" markdown="1">
 If you want a description of the various elements in our HTML page such as `html`, `head`, and `<!DOCTYPE html>`, the Mozilla Developer Network's [Anatomy of an HTML Document](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#Anatomy_of_an_HTML_document){:target="_blank"} has a great list describing each of these in detail.

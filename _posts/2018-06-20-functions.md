@@ -20,7 +20,7 @@ style: code
 
 ## Introduction
 
-In the [previous tutorial](https://atom-morgan.github.io/properties-and-methods/){:target="_blank"} we introduced properties and methods such as `.length` and `.charAt()` as well as the logical operators AND and OR. We finished by writing our first iterative code using the `for` loop.
+In the [previous tutorial](https://fabiansato.github.io/properties-and-methods/){:target="_blank"} we introduced properties and methods such as `.length` and `.charAt()` as well as the logical operators AND and OR. We finished by writing our first iterative code using the `for` loop.
 
 Up until this point we've been calling functions (also referred to as methods) like `console.log()` and `.charAt()`. In this tutorial we're going to switch from *calling* functions to *writing* them as well.
 
@@ -212,8 +212,8 @@ In our previous example we saw a new keyword, `const`, that was used when declar
 The keyword `const` stands for constant and it's a variable whose value doesn't change. We can illustrate this with the following code:
 
 ```javascript
-let name = 'Adam';
-name = 'Morgan';
+let name = 'Fabian';
+name = 'Sato';
 console.log(name);
 
 const pi = 3.14;
@@ -224,7 +224,7 @@ console.log(pi);
 Run that code and you should see an error like this:
 
 ```console
-/Users/adammorgan/Desktop/webdev-functions/functions.js:6
+/Users/FabianSato/Desktop/webdev-functions/functions.js:6
 pi = 4.14;
    ^
 
@@ -240,14 +240,14 @@ So constants are great for values like `days` in our previous example where `day
 Before moving on to our last example I want to briefly address a slightly cleaner way of combining variables and strings. Using concatentation, things can start to get messy quick.
 
 ```javascript
-let name = 'Adam';
+let name = 'Fabian';
 console.log('My name is ' + name + '.');
 ```
 
 With multiple values and a longer string, the string can be a bit difficult to read for a developer who may be making updates. Instead, we can use a template literal with placeholders.
 
 ```javascript
-let name = 'Adam';
+let name = 'Fabian';
 console.log(`My name is ${name}.`);
 ```
 

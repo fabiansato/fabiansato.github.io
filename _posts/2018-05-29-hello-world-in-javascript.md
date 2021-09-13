@@ -286,6 +286,6 @@ alert(1);
 console.log(1);
 ```
 
-In the [next tutorial](http://atom-morgan.github.io/data-types-in-javascript/){:target="_blank"} we'll take a look at some of the data types (we've already used strings and numbers) available to us in JavaScript.
+In the [next tutorial](http://atom-Sato.github.io/data-types-in-javascript/){:target="_blank"} we'll take a look at some of the data types (we've already used strings and numbers) available to us in JavaScript.
 
 {% include book-plug.html %}

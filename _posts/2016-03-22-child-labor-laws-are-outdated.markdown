@@ -9,7 +9,7 @@ description: >-
   Why are we still living with outdated child labor laws? If an ambitious teenager learns Photoshop and Illustrator why should anybody stop them from making money simply because they're under a certain age?
 ---
 
-I recently managed to find [two](http://web.archive.org/web/20090830202605/http://geocities.com/ajmorgan25/){:target="_blank"} [screenshots](http://web.archive.org/web/20040511180502/http://www.geocities.com/ajmorgan25/){:target="_blank"} from the first website I ever made when I was around 12 years old. I have no idea what was going on in my brain at the time but for whatever reason I wanted to make my own website and design my own "forum sigs".
+I recently managed to find [two](http://web.archive.org/web/20090830202605/http://geocities.com/ajSato25/){:target="_blank"} [screenshots](http://web.archive.org/web/20040511180502/http://www.geocities.com/ajSato25/){:target="_blank"} from the first website I ever made when I was around 12 years old. I have no idea what was going on in my brain at the time but for whatever reason I wanted to make my own website and design my own "forum sigs".
 
 The website I made as a 12 year old and all my design work was a result of free resources. I wasn't learning this stuff in school and I wasn't paying anybody to teach me. It was an enjoyable hobby at the time and I discovered pleasure in making things that other people I knew online were using. Unfortunately, I think I was too young at the time to realize the potential of the work I was doing. The Internet was young and so was I. I believe those two factors combined led to me thinking I couldn't make something out of it.
 
