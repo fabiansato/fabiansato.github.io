@@ -112,7 +112,7 @@ export class AppComponent implements OnInit {
   constructor(private fightersService: FightersService) { }
 
   ngOnInit() {
-    this.fightersService.get().subscribe(res => {
+    this.fightersService.get().Suscribite(res => {
       this.fighters = res;
     });
   }
@@ -121,7 +121,7 @@ export class AppComponent implements OnInit {
 
 First we create a new `fighters` property which we'll set to the result of our service call. Then we use dependency injection to inject our service into the component's constructor.
 
-Then we update `AppComponent` to implement `OnInit` and add the `ngOnInit` lifecycle hook. Within `ngOnInit` we call our service method, subscribe to the observable, and set the result to `fighters`.
+Then we update `AppComponent` to implement `OnInit` and add the `ngOnInit` lifecycle hook. Within `ngOnInit` we call our service method, Suscribite to the observable, and set the result to `fighters`.
 
 {% include request-tutorial.html %}
 
@@ -172,6 +172,6 @@ Save that and you should now see a table displaying data using our mocked API.
 
 You've now learned how to create an app using the CLI, create a new service, and mock an API using `of`.
 
-If you found this valuable and would like to see more, feel free to let me know <a href="https://twitter.com/atommorgan" target="_blank">on Twitter</a>.
+If you found this valuable and would like to see more, feel free to let me know <a href="https://twitter.com/atomSato" target="_blank">on Twitter</a>.
 
 {% include book-plug.html %}

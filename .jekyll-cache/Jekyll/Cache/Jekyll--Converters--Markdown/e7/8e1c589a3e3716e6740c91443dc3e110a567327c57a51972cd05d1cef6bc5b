@@ -1,4 +1,4 @@
-I"h�<h2 id="video">Video</h2>
+I"h�<h2 id="video">Video</h2>
 
 <div class="videoWrapper">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/zFvxKn3DXqY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
@@ -8,7 +8,7 @@
 
 <p>We’ve covered a lot of the basics of JavaScript up to this point. These are the building blocks—the fundamentals needed for programming. But we’re now at a point where we can start using all of this to write simplified versions of programs you and I might actually use.</p>
 
-<p>In this tutorial, we’re going to look at JavaScript by creating objects that we can instantiate using the <code class="language-plaintext highlighter-rouge">new</code> keyword as we saw in the <a href="https://atom-morgan.github.io/functions/" target="_blank">last tutorial</a> when we were working with <code class="language-plaintext highlighter-rouge">Date</code>.</p>
+<p>In this tutorial, we’re going to look at JavaScript by creating objects that we can instantiate using the <code class="language-plaintext highlighter-rouge">new</code> keyword as we saw in the <a href="https://fabiansato.github.io/functions/" target="_blank">last tutorial</a> when we were working with <code class="language-plaintext highlighter-rouge">Date</code>.</p>
 
 <p>It won’t be much longer before we’re adding some of this functionality to an HTML page.</p>
 
@@ -36,7 +36,7 @@
 </span></code></pre></div></div>
 
 <div class="box">
-  <p>Got an idea for a tutorial? Contact me <a href="https://twitter.com/atommorgan" target="_blank">on Twitter</a> and I might publish it on this blog!</p>
+  <p>Got an idea for a tutorial? Contact me <a href="https://twitter.com/atomSato" target="_blank">on Twitter</a> and I might publish it on this blog!</p>
 </div>
 
 <h2 id="function-declarations-and-expressions">Function declarations and expressions</h2>
@@ -71,15 +71,15 @@
 <p>Up until this point we’ve been creating what are known as object literals. An example of one is shown below:</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">user</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Adam</span><span class="dl">'</span><span class="p">,</span>
+  <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Fabian</span><span class="dl">'</span><span class="p">,</span>
   <span class="na">age</span><span class="p">:</span> <span class="mi">28</span>
 <span class="p">};</span>
 
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">user</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span> <span class="c1">// Adam</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">user</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span> <span class="c1">// Fabian</span>
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">user</span><span class="p">.</span><span class="nx">age</span><span class="p">);</span> <span class="c1">// 28</span>
 </code></pre></div></div>
 
-<p>Then in the <a href="https://atom-morgan.github.io/functions/" target="_blank">previous tutorial</a> we saw a new way of creating objects using the <code class="language-plaintext highlighter-rouge">new</code> keyword as we did with <code class="language-plaintext highlighter-rouge">Date</code>.</p>
+<p>Then in the <a href="https://fabiansato.github.io/functions/" target="_blank">previous tutorial</a> we saw a new way of creating objects using the <code class="language-plaintext highlighter-rouge">new</code> keyword as we did with <code class="language-plaintext highlighter-rouge">Date</code>.</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">now</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">();</span>
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">now</span><span class="p">.</span><span class="nx">getDay</span><span class="p">());</span>
@@ -96,13 +96,13 @@
   <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
 <span class="p">}</span>
 
-<span class="kd">let</span> <span class="nx">trainer</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Trainer</span><span class="p">(</span><span class="dl">'</span><span class="s1">Adam</span><span class="dl">'</span><span class="p">);</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">trainer</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span> <span class="c1">// Adam</span>
+<span class="kd">let</span> <span class="nx">trainer</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Trainer</span><span class="p">(</span><span class="dl">'</span><span class="s1">Fabian</span><span class="dl">'</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">trainer</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span> <span class="c1">// Fabian</span>
 </code></pre></div></div>
 
 <p>Here we’ve defined a constructor function <code class="language-plaintext highlighter-rouge">Trainer</code> with a single parameter <code class="language-plaintext highlighter-rouge">name</code>. Inside the constructor (or constructor function) the keyword <code class="language-plaintext highlighter-rouge">this</code> references the new object that’s being created. So in the example a new <code class="language-plaintext highlighter-rouge">name</code> property is set to the value of the <code class="language-plaintext highlighter-rouge">name</code> parameter.</p>
 
-<p>Then we <em>instantiate the object</em> with the line: <code class="language-plaintext highlighter-rouge">let trainer = new Trainer('Adam');</code>. After that, <code class="language-plaintext highlighter-rouge">trainer</code> behaves just like any other object we’ve created so far.</p>
+<p>Then we <em>instantiate the object</em> with the line: <code class="language-plaintext highlighter-rouge">let trainer = new Trainer('Fabian');</code>. After that, <code class="language-plaintext highlighter-rouge">trainer</code> behaves just like any other object we’ve created so far.</p>
 
 <div class="box">
   <p>It’s a popular convention in JavaScript to capitalize constructor functions. Any other function that isn’t a constructor function is camel cased like <code class="language-plaintext highlighter-rouge">getArea</code>.</p>
@@ -119,8 +119,8 @@
   <span class="p">};</span>
 <span class="p">}</span>
 
-<span class="kd">let</span> <span class="nx">trainer</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Trainer</span><span class="p">(</span><span class="dl">'</span><span class="s1">Adam</span><span class="dl">'</span><span class="p">);</span>
-<span class="nx">trainer</span><span class="p">.</span><span class="nx">identify</span><span class="p">();</span> <span class="c1">// The trainer is Adam</span>
+<span class="kd">let</span> <span class="nx">trainer</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Trainer</span><span class="p">(</span><span class="dl">'</span><span class="s1">Fabian</span><span class="dl">'</span><span class="p">);</span>
+<span class="nx">trainer</span><span class="p">.</span><span class="nx">identify</span><span class="p">();</span> <span class="c1">// The trainer is Fabian</span>
 </code></pre></div></div>
 
 <p>Here we create a new <code class="language-plaintext highlighter-rouge">identify</code> property set to a function expression. Within that function, we print out the trainer’s name by accessing the object’s <code class="language-plaintext highlighter-rouge">name</code> property using <code class="language-plaintext highlighter-rouge">this.name</code>. Call <code class="language-plaintext highlighter-rouge">trainer.identify()</code> and you should see the message printed to your screen.</p>

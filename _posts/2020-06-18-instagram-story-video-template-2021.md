@@ -61,6 +61,6 @@ Now you can simply touch the template image and pinch to scale it until your vid
 
 ## Conclusion
 
-This is definitely a bit hacky but it does work. If you make your own IG templates, I'd love to see them. Feel free to [DM me on Instagram](https://www.instagram.com/adamjmorgan/).
+This is definitely a bit hacky but it does work. If you make your own IG templates, I'd love to see them. Feel free to [DM me on Instagram](https://www.instagram.com/FabianjSato/).
 
-If you don't feel capable enough to make one of these on your own, [DM me on Instagram](https://www.instagram.com/adamjmorgan/) and we'll see if we can work something out.
+If you don't feel capable enough to make one of these on your own, [DM me on Instagram](https://www.instagram.com/FabianjSato/) and we'll see if we can work something out.

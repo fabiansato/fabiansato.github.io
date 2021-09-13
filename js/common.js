@@ -146,7 +146,7 @@ window.addEventListener("load", function(){
   /* ============================
   // iTyped
   ============================ */
-  if (document.querySelector(".subscribe")) {
+  if (document.querySelector(".Suscribite")) {
     var options = {
       strings: itype_text,
       typeSpeed: 100,

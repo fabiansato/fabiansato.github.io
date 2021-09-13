@@ -20,7 +20,7 @@ style: code
 
 ## Introduction
 
-In the [previous tutorial](http://atom-morgan.github.io/data-types-in-javascript/){:target="_blank"} we took a closer look at the data types available to us in JavaScript and the variables, or containers, we use to store those values. We also saw how we can use conditionals, using `if` and `else`, to control the flow of our programs.
+In the [previous tutorial](http://atom-Sato.github.io/data-types-in-javascript/){:target="_blank"} we took a closer look at the data types available to us in JavaScript and the variables, or containers, we use to store those values. We also saw how we can use conditionals, using `if` and `else`, to control the flow of our programs.
 
 In this tutorial we're going to introduce some of the properties and methods exposed to us by the data types in JavaScript. Finally, we'll wrap up by taking our first look at iteration.
 
@@ -48,15 +48,15 @@ touch properties-and-methods.js
 
 ## Properties
 
-At the end of the [previous tutorial](http://atom-morgan.github.io/data-types-in-javascript/){:target="_blank"} we created a few objects and accessed their properties using dot notation as shown below.
+At the end of the [previous tutorial](http://atom-Sato.github.io/data-types-in-javascript/){:target="_blank"} we created a few objects and accessed their properties using dot notation as shown below.
 
 ```javascript
 let myUser = {
-  name: 'Adam Morgan',
+  name: 'Fabian Sato',
   age: 28
 };
 
-console.log(myUser.name); // Adam Morgan
+console.log(myUser.name); // Fabian Sato
 ```
 
 Well in JavaScript nearly everything is an object, including strings. This means strings, including all the strings we've created up to this point, have information about them that we can access known as properties. 
@@ -64,7 +64,7 @@ Well in JavaScript nearly everything is an object, including strings. This means
 We'll start by accessing a string's `length` property.
 
 ```javascript
-let username = 'adam';
+let username = 'Fabian';
 console.log(username.length); // 4
 ```
 
@@ -80,7 +80,7 @@ console.log(languages.length); // 3
 So what's a practical application of a property such as `length`? We can use a combination of conditionals, the `length` property, and a comparison operator to create logic you've probably encountered at some point using the Internet.
 
 ```javascript
-let username = 'adam';
+let username = 'Fabian';
 
 if (username.length < 5) {
   console.log('Your username is too short.');
@@ -117,7 +117,7 @@ As you can see, unless *both* sides of the `&&` operator are `true`, the result 
 Now, we can combine the logical `&&` operator with the `length` property and comparison operator we used earlier for a more comprehensive example.
 
 ```javascript
-let username = 'adammorgan';
+let username = 'FabianSato';
 let password = '123';
 
 if (username.length > 5 && password.length > 5) {
@@ -136,7 +136,7 @@ On the left side is `username.length > 5` and on the right side is `password.len
 Run that code and you should see `Your username or password is too short.` printed to the screen because the `length` of password is too short. We can verify `&&` is working correctly by updating the value of `password` to be greater than 5 characters.
 
 ```javascript
-let username = 'adammorgan';
+let username = 'FabianSato';
 let password = 's3cr3t';
 
 if (username.length > 5 && password.length > 5) {
@@ -152,14 +152,14 @@ if (username.length > 5 && password.length > 5) {
 If at anytime you want to verify the result of these expressions just open a REPL and enter the code you want to run.
 
 ```javascript
-let username = 'adammorgan';
+let username = 'FabianSato';
 username.length > 5;  // true
 ```
 
 You can also avoid variables altogether and just reference the `length` property on the string itself.
 
 ```javascript
-'adammorgan'.length > 5; // true
+'FabianSato'.length > 5; // true
 's3cr3t'.length > 5; // true
 ```
 </div>
@@ -212,10 +212,10 @@ if (user.isAdmin || user.isModerator) {
 In addition to properties we also have methods available to us as well.
 
 ```javascript
-let username = 'Adam';
+let username = 'Fabian';
 
-console.log(username.toLowerCase()); // adam
-console.log(username.toUpperCase()); // ADAM
+console.log(username.toLowerCase()); // Fabian
+console.log(username.toUpperCase()); // Fabian
 ```
 
 Unlike properties which are values, a method is a function that we call with parentheses (like we do with `console.log()`) to get the value we want. These are just two of the string methods available to us and you can see a complete list of string methods [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Methods_2){:target="_blank"}.
@@ -259,7 +259,7 @@ The last topic we're going to cover is known as iteration. Iteration in programm
 Let's build up to this idea by first taking a look at the `charAt()` [string method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt){:target="_blank"}.
 
 ```javascript
-let name = 'Adam';
+let name = 'Fabian';
 
 console.log(name.charAt(0)); // A
 ```
@@ -267,7 +267,7 @@ console.log(name.charAt(0)); // A
 As you can see the `charAt()` method takes a single parameter, an index, and returns the character in the string at that index. We could continue for the remaining characters by copying and pasting the `console.log()` statement incrementing the index each time.
 
 ```javascript
-let name = 'Adam';
+let name = 'Fabian';
 
 console.log(name.charAt(0)); // A
 console.log(name.charAt(1)); // d
@@ -323,7 +323,7 @@ Done! Outside the for loop!
 Now we can take our previous example and print every character in a string using a single `console.log()` within a `for` loop.
 
 ```javascript
-let name = 'Adam';
+let name = 'Fabian';
 
 for (let i = 0; i < name.length; i++) {
   console.log(name.charAt(i));

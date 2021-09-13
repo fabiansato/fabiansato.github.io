@@ -253,6 +253,6 @@ export class AuthService {
 
 Now when you try accessing `/restricted` and you should be redirected to the root path of the application, `UnrestrictedComponent`.
 
-> If you found this valuable and would like to see more, feel free to let me know <a href="https://twitter.com/atommorgan" target="_blank">on Twitter</a>.
+> If you found this valuable and would like to see more, feel free to let me know <a href="https://twitter.com/atomSato" target="_blank">on Twitter</a>.
 
 {% include book-plug.html %}

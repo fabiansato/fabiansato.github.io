@@ -38,7 +38,7 @@
   <span class="kd">constructor</span><span class="p">(</span><span class="kr">private</span> <span class="nx">dummyService</span><span class="p">:</span> <span class="nx">DummyService</span><span class="p">)</span> <span class="p">{</span> <span class="p">}</span>
 
   <span class="nx">submitForm</span><span class="p">(</span><span class="nx">form</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">dummyService</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="nx">form</span><span class="p">).</span><span class="nx">subscribe</span><span class="p">((</span><span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">dummyService</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="nx">form</span><span class="p">).</span><span class="nx">Suscribite</span><span class="p">((</span><span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
       <span class="k">this</span><span class="p">.</span><span class="nx">submittedUser</span> <span class="o">=</span> <span class="nx">res</span><span class="p">.</span><span class="nx">message</span><span class="p">;</span>
     <span class="p">});</span>
   <span class="p">}</span>
@@ -55,7 +55,7 @@
 <p>To fix this, we’ll need to leverage Angular’s <a href="https://angular.io/docs/ts/latest/api/core/index/ViewChild-decorator.html" target="_blank">ViewChild</a> decorator. <code class="language-plaintext highlighter-rouge">ViewChild</code> allows us to query our view to get an element or directive of our choice. In this case, we want a <code class="language-plaintext highlighter-rouge">ViewChild</code> for our form.</p>
 
 <div class="box">
-  <p>Got an idea for a tutorial? Contact me <a href="https://twitter.com/atommorgan" target="_blank">on Twitter</a> and I might publish it on this blog!</p>
+  <p>Got an idea for a tutorial? Contact me <a href="https://twitter.com/atomSato" target="_blank">on Twitter</a> and I might publish it on this blog!</p>
 </div>
 
 <p>To do this, we’ll need to import <code class="language-plaintext highlighter-rouge">ViewChild</code> (Thanks to <a href="https://twitter.com/chrisoncode" target="_blank">Chris Sevilleja</a> for introducing me to ViewChild).</p>
@@ -89,7 +89,7 @@
 <span class="p">...</span>
 
 <span class="nx">submitForm</span><span class="p">(</span><span class="nx">form</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">this</span><span class="p">.</span><span class="nx">dummyService</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="nx">form</span><span class="p">).</span><span class="nx">subscribe</span><span class="p">((</span><span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">dummyService</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="nx">form</span><span class="p">).</span><span class="nx">Suscribite</span><span class="p">((</span><span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
     <span class="k">this</span><span class="p">.</span><span class="nx">submittedUser</span> <span class="o">=</span> <span class="nx">res</span><span class="p">.</span><span class="nx">message</span><span class="p">;</span>
     <span class="k">this</span><span class="p">.</span><span class="nx">formValues</span><span class="p">.</span><span class="nx">resetForm</span><span class="p">();</span> <span class="c1">// Added this</span>
   <span class="p">});</span>

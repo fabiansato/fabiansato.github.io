@@ -65,7 +65,7 @@ ng g component unrestricted
 <p>Run your application with <code class="language-plaintext highlighter-rouge">ng serve</code> and you should now see the default templates for these two components when you access their routes.</p>
 
 <div class="box">
-  <p>Got an idea for a tutorial? Contact me <a href="https://twitter.com/atommorgan" target="_blank">on Twitter</a> and I might publish it on this blog!</p>
+  <p>Got an idea for a tutorial? Contact me <a href="https://twitter.com/atomSato" target="_blank">on Twitter</a> and I might publish it on this blog!</p>
 </div>
 
 <h2 id="auth-service">Auth service</h2>
@@ -225,7 +225,7 @@ ng g component unrestricted
 <p>Now when you try accessing <code class="language-plaintext highlighter-rouge">/restricted</code> and you should be redirected to the root path of the application, <code class="language-plaintext highlighter-rouge">UnrestrictedComponent</code>.</p>
 
 <blockquote>
-  <p>If you found this valuable and would like to see more, feel free to let me know <a href="https://twitter.com/atommorgan" target="_blank">on Twitter</a>.</p>
+  <p>If you found this valuable and would like to see more, feel free to let me know <a href="https://twitter.com/atomSato" target="_blank">on Twitter</a>.</p>
 </blockquote>
 
 <hr style="border: 0; border-bottom: solid 2px; margin: 3rem 0; border-bottom-color: #212931;" />

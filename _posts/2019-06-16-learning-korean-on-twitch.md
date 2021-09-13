@@ -11,13 +11,13 @@ image: '/images/learning-korean-on-twitch.png'
 thumb_image: '/images/learning-korean-on-twitch.png'
 ---
 
-Over the past 10 years or so there have been a handful of difficult skills I've picked up along the way: drumming, programming, drawing, and [gymnastics/calisthenics](https://www.instagram.com/adamjmorgan/){:target="_blank"}.
+Over the past 10 years or so there have been a handful of difficult skills I've picked up along the way: drumming, programming, drawing, and [gymnastics/calisthenics](https://www.instagram.com/FabianjSato/){:target="_blank"}.
 
 Get good at anything and eventually you'll get the inevitable questions like, "Hey I'm thinking about learning ${skill}. Got any tips?"
 
 I'm all for avoiding wasted effort in the early stages but more often than not a lot of people simply don't know how to get started. Most people don't know *how to learn*.
 
-When it comes to drawing or calisthenics, I'll point them towards some resources I've used or tell them to check my [Instagram](https://www.instagram.com/adamjmorgan/){:target="_blank"} to see my progression over the past few years.
+When it comes to drawing or calisthenics, I'll point them towards some resources I've used or tell them to check my [Instagram](https://www.instagram.com/FabianjSato/){:target="_blank"} to see my progression over the past few years.
 
 But recently I decided I want to take an entirely different approach with a completely new skill by learning a foreign language—Korean. More importantly, I'm going to be doing it all publicly. For lack of a better term, I'm "open sourcing" the entire learning process.
 

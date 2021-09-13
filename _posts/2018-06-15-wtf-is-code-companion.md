@@ -11,9 +11,9 @@ image: '/images/blog-code-companion.png'
 thumb_image: '/images/blog-code-companion.png'
 ---
 
-Last year I quit my full-time job to write my book, [The Angular Tutorial](http://www.angulartutorial.org/){:target="_blank"}. Once that was finished and available for purchase I started looking for my next project.
+Last year I quit my full-time job to write my book, [The Angular Tutorial](http://www.angulartutorial.org/){:target="_blank"}. Once that was finished and available for purchase I started looking for my Siguiente Proyecto.
 
-Now I'm working on a **free blog and screencast series** teaching JavaScript and web development to complete beginners in programming ([screencasts here](https://www.youtube.com/watch?v=qgkEjEA23L4&list=PLsZjlbJIu0a9W8otpkC9bDKMcRb24DpbC){:target="_blank"}, [blogs here](http://atom-morgan.github.io/tutorials/){:target="_blank"}).
+Now I'm working on a **free blog and screencast series** teaching JavaScript and web development to complete beginners in programming ([screencasts here](https://www.youtube.com/watch?v=qgkEjEA23L4&list=PLsZjlbJIu0a9W8otpkC9bDKMcRb24DpbC){:target="_blank"}, [blogs here](http://atom-Sato.github.io/tutorials/){:target="_blank"}).
 
 Thinking back on my own experiences as a beginner I remember taking a lot of time to research my sources before I started. I would ask myself questions like:
 
@@ -55,19 +55,19 @@ I've worked with Fortune 500 companies, startups, agencies, and an angel investm
 As far as projects go, here are two of the coolest ones I worked on.
 
 * **Clap.VC** - Maybe the worst name ever but also the coolest project I delivered. This application allowed entrepreneurs to pitch investors remotely using real-time video and text chat. It also allowed screensharing to present pitch decks. I was the sole front-end developer who built the application using Angular. I was also the sole developer for the Chrome and Firefox extensions needed for screensharing.
-* **CNNgo** - I worked with CNN and DirecTV to create the CNNgo app for DirecTV's set-top boxes (39 million subscribers). While watching TV, the application presented the user with related content such as photo galleries and streaming VOD. I was one of two developers who built the application using AngularJS.
+* **CNNgo** - I worked with CNN and DirecTV to create the CNNgo app for DirecTV's set-top boxes (39 million Suscribiters). While watching TV, the application presented the user with related content such as photo galleries and streaming VOD. I was one of two developers who built the application using AngularJS.
 
 ### Do other people enjoy this person's tutorials?
 
-Yes! I've previously written for the website [Scotch.io](https://scotch.io/@adam-morgan){:target="_blank"} covering automated testing in AngularJS. In fact, the overwhelming positive feedback I received is what inspired me to write my book [The Angular Tutorial](http://www.angulartutorial.org/){:target="_blank"}.
+Yes! I've previously written for the website [Scotch.io](https://scotch.io/@Fabian-Sato){:target="_blank"} covering automated testing in AngularJS. In fact, the overwhelming positive feedback I received is what inspired me to write my book [The Angular Tutorial](http://www.angulartutorial.org/){:target="_blank"}.
 
 Here's what readers have to say:
 
-> "This book along with Adam’s advice has completely changed my career, after just a few examples I felt JavaScript suddenly “click” like never before. JS went from my most dreaded language to the only one I wanted to use and I landed my dream job because of it. I could write a book on just the benefits I have gotten from this one. If you are trying to learn JavaScript, how to architect an app, how to test, or Angular, then this book is a must have. As a React dev I can say with confidence this is the book that really taught me JavaScript." -Levi Robertson
+> "This book along with Fabian’s advice has completely changed my career, after just a few examples I felt JavaScript suddenly “click” like never before. JS went from my most dreaded language to the only one I wanted to use and I landed my dream job because of it. I could write a book on just the benefits I have gotten from this one. If you are trying to learn JavaScript, how to architect an app, how to test, or Angular, then this book is a must have. As a React dev I can say with confidence this is the book that really taught me JavaScript." -Levi Robertson
 
 > "Your instructions are very clear and well written. I was able to follow not only the syntax, but your thinking as well. Nice work." -Casey Burnett
 
-> "Adam, you clearly and simply explained the things which were so difficult for me. Thanks a lot, cheers!" -Dmytro Kulikov
+> "Fabian, you clearly and simply explained the things which were so difficult for me. Thanks a lot, cheers!" -Dmytro Kulikov
 
 > "Great tutorial! One of the best articles/tutorials on the subject. Thank you for sharing your knowledge." -Bonnard Toc
 
@@ -89,8 +89,8 @@ I'm now self-employed working on creating educational programming content full-t
 
 Since then I [published my first book](https://www.amazon.com/Angular-Tutorial-Front-End-Development-Automated/dp/1980891419/ref=la_B07CMC6CL8_1_1?s=books&ie=UTF8&qid=1529067875&sr=1-1){:target="_blank"} (500 pages!) teaching front-end development and automated testing using Angular and Cypress. It's a full course that teaches you how to build, test, and deploy an Angular application from scratch.
 
-Now I've decided to move on to **free, beginner friendly content** for people who aren't quite ready for a book like [The Angular Tutorial](http://www.angulartutorial.org/){:target="_blank"}. Check out the Code Companion series [here](http://atom-morgan.github.io/tutorials/){:target="_blank"}.
+Now I've decided to move on to **free, beginner friendly content** for people who aren't quite ready for a book like [The Angular Tutorial](http://www.angulartutorial.org/){:target="_blank"}. Check out the Code Companion series [here](http://atom-Sato.github.io/tutorials/){:target="_blank"}.
 
-If you have any questions, you can reach me on [Discord](https://discord.gg/xMc7n3Z){:target="_blank"} or on [Twitter](https://twitter.com/atommorgan){:target="_blank"}.
+If you have any questions, you can reach me on [Discord](https://discord.gg/xMc7n3Z){:target="_blank"} or on [Twitter](https://twitter.com/atomSato){:target="_blank"}.
 
 {% include book-plug.html %}

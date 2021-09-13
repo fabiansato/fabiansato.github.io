@@ -1,4 +1,4 @@
-I"ÂQ<h2 id="introduction">Introduction</h2>
+I"ï¿½Q<h2 id="introduction">Introduction</h2>
 
 <p>In this tutorial weâ€™ll learn how to generate a new Angular project using the <a href="https://github.com/angular/angular-cli" target="_blank">Angular CLI</a> and style it using the <a href="https://bulma.io/" target="_blank">Bulma</a> framework.</p>
 
@@ -9,7 +9,7 @@
 </ul>
 
 <div class="box">
-  <p>Got an idea for a tutorial? Contact me <a href="https://twitter.com/atommorgan" target="_blank">on Twitter</a> and I might publish it on this blog!</p>
+  <p>Got an idea for a tutorial? Contact me <a href="https://twitter.com/atomSato" target="_blank">on Twitter</a> and I might publish it on this blog!</p>
 </div>
 
 <h2 id="angular-setup">Angular Setup</h2>

@@ -1,4 +1,4 @@
-I"j�<h2 id="video">Video</h2>
+I"j�<h2 id="video">Video</h2>
 
 <div class="videoWrapper">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/HlGpWv1_lfs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
@@ -6,7 +6,7 @@
 
 <h2 id="introduction">Introduction</h2>
 
-<p>In the <a href="http://atom-morgan.github.io/data-types-in-javascript/" target="_blank">previous tutorial</a> we took a closer look at the data types available to us in JavaScript and the variables, or containers, we use to store those values. We also saw how we can use conditionals, using <code class="language-plaintext highlighter-rouge">if</code> and <code class="language-plaintext highlighter-rouge">else</code>, to control the flow of our programs.</p>
+<p>In the <a href="http://atom-Sato.github.io/data-types-in-javascript/" target="_blank">previous tutorial</a> we took a closer look at the data types available to us in JavaScript and the variables, or containers, we use to store those values. We also saw how we can use conditionals, using <code class="language-plaintext highlighter-rouge">if</code> and <code class="language-plaintext highlighter-rouge">else</code>, to control the flow of our programs.</p>
 
 <p>In this tutorial we’re going to introduce some of the properties and methods exposed to us by the data types in JavaScript. Finally, we’ll wrap up by taking our first look at iteration.</p>
 
@@ -33,21 +33,21 @@
 
 <h2 id="properties">Properties</h2>
 
-<p>At the end of the <a href="http://atom-morgan.github.io/data-types-in-javascript/" target="_blank">previous tutorial</a> we created a few objects and accessed their properties using dot notation as shown below.</p>
+<p>At the end of the <a href="http://atom-Sato.github.io/data-types-in-javascript/" target="_blank">previous tutorial</a> we created a few objects and accessed their properties using dot notation as shown below.</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">myUser</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Adam Morgan</span><span class="dl">'</span><span class="p">,</span>
+  <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Fabian Sato</span><span class="dl">'</span><span class="p">,</span>
   <span class="na">age</span><span class="p">:</span> <span class="mi">28</span>
 <span class="p">};</span>
 
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myUser</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span> <span class="c1">// Adam Morgan</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myUser</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span> <span class="c1">// Fabian Sato</span>
 </code></pre></div></div>
 
 <p>Well in JavaScript nearly everything is an object, including strings. This means strings, including all the strings we’ve created up to this point, have information about them that we can access known as properties.</p>
 
 <p>We’ll start by accessing a string’s <code class="language-plaintext highlighter-rouge">length</code> property.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">username</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">adam</span><span class="dl">'</span><span class="p">;</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">username</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Fabian</span><span class="dl">'</span><span class="p">;</span>
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">username</span><span class="p">.</span><span class="nx">length</span><span class="p">);</span> <span class="c1">// 4</span>
 </code></pre></div></div>
 
@@ -61,7 +61,7 @@
 
 <p>So what’s a practical application of a property such as <code class="language-plaintext highlighter-rouge">length</code>? We can use a combination of conditionals, the <code class="language-plaintext highlighter-rouge">length</code> property, and a comparison operator to create logic you’ve probably encountered at some point using the Internet.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">username</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">adam</span><span class="dl">'</span><span class="p">;</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">username</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Fabian</span><span class="dl">'</span><span class="p">;</span>
 
 <span class="k">if</span> <span class="p">(</span><span class="nx">username</span><span class="p">.</span><span class="nx">length</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">)</span> <span class="p">{</span>
   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Your username is too short.</span><span class="dl">'</span><span class="p">);</span>
@@ -99,7 +99,7 @@
 
 <p>Now, we can combine the logical <code class="language-plaintext highlighter-rouge">&amp;&amp;</code> operator with the <code class="language-plaintext highlighter-rouge">length</code> property and comparison operator we used earlier for a more comprehensive example.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">username</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">adammorgan</span><span class="dl">'</span><span class="p">;</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">username</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">FabianSato</span><span class="dl">'</span><span class="p">;</span>
 <span class="kd">let</span> <span class="nx">password</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">123</span><span class="dl">'</span><span class="p">;</span>
 
 <span class="k">if</span> <span class="p">(</span><span class="nx">username</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">5</span> <span class="o">&amp;&amp;</span> <span class="nx">password</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">)</span> <span class="p">{</span>
@@ -117,7 +117,7 @@
 
 <p>Run that code and you should see <code class="language-plaintext highlighter-rouge">Your username or password is too short.</code> printed to the screen because the <code class="language-plaintext highlighter-rouge">length</code> of password is too short. We can verify <code class="language-plaintext highlighter-rouge">&amp;&amp;</code> is working correctly by updating the value of <code class="language-plaintext highlighter-rouge">password</code> to be greater than 5 characters.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">username</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">adammorgan</span><span class="dl">'</span><span class="p">;</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">username</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">FabianSato</span><span class="dl">'</span><span class="p">;</span>
 <span class="kd">let</span> <span class="nx">password</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">s3cr3t</span><span class="dl">'</span><span class="p">;</span>
 
 <span class="k">if</span> <span class="p">(</span><span class="nx">username</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">5</span> <span class="o">&amp;&amp;</span> <span class="nx">password</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">)</span> <span class="p">{</span>
@@ -132,13 +132,13 @@
 
   <p>If at anytime you want to verify the result of these expressions just open a REPL and enter the code you want to run.</p>
 
-  <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">username</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">adammorgan</span><span class="dl">'</span><span class="p">;</span>
+  <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">username</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">FabianSato</span><span class="dl">'</span><span class="p">;</span>
 <span class="nx">username</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">;</span>  <span class="c1">// true</span>
 </code></pre></div>  </div>
 
   <p>You can also avoid variables altogether and just reference the <code class="language-plaintext highlighter-rouge">length</code> property on the string itself.</p>
 
-  <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="dl">'</span><span class="s1">adammorgan</span><span class="dl">'</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">;</span> <span class="c1">// true</span>
+  <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="dl">'</span><span class="s1">FabianSato</span><span class="dl">'</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">;</span> <span class="c1">// true</span>
 <span class="dl">'</span><span class="s1">s3cr3t</span><span class="dl">'</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">;</span> <span class="c1">// true</span>
 </code></pre></div>  </div>
 </div>
@@ -187,10 +187,10 @@
 
 <p>In addition to properties we also have methods available to us as well.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">username</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Adam</span><span class="dl">'</span><span class="p">;</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">username</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Fabian</span><span class="dl">'</span><span class="p">;</span>
 
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">username</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">());</span> <span class="c1">// adam</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">username</span><span class="p">.</span><span class="nx">toUpperCase</span><span class="p">());</span> <span class="c1">// ADAM</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">username</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">());</span> <span class="c1">// Fabian</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">username</span><span class="p">.</span><span class="nx">toUpperCase</span><span class="p">());</span> <span class="c1">// Fabian</span>
 </code></pre></div></div>
 
 <p>Unlike properties which are values, a method is a function that we call with parentheses (like we do with <code class="language-plaintext highlighter-rouge">console.log()</code>) to get the value we want. These are just two of the string methods available to us and you can see a complete list of string methods <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Methods_2" target="_blank">here</a>.</p>
@@ -231,14 +231,14 @@
 
 <p>Let’s build up to this idea by first taking a look at the <code class="language-plaintext highlighter-rouge">charAt()</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt" target="_blank">string method</a>.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">name</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Adam</span><span class="dl">'</span><span class="p">;</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">name</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Fabian</span><span class="dl">'</span><span class="p">;</span>
 
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">.</span><span class="nx">charAt</span><span class="p">(</span><span class="mi">0</span><span class="p">));</span> <span class="c1">// A</span>
 </code></pre></div></div>
 
 <p>As you can see the <code class="language-plaintext highlighter-rouge">charAt()</code> method takes a single parameter, an index, and returns the character in the string at that index. We could continue for the remaining characters by copying and pasting the <code class="language-plaintext highlighter-rouge">console.log()</code> statement incrementing the index each time.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">name</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Adam</span><span class="dl">'</span><span class="p">;</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">name</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Fabian</span><span class="dl">'</span><span class="p">;</span>
 
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">.</span><span class="nx">charAt</span><span class="p">(</span><span class="mi">0</span><span class="p">));</span> <span class="c1">// A</span>
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">.</span><span class="nx">charAt</span><span class="p">(</span><span class="mi">1</span><span class="p">));</span> <span class="c1">// d</span>
@@ -292,7 +292,7 @@ Done! Outside the for loop!
 
 <p>Now we can take our previous example and print every character in a string using a single <code class="language-plaintext highlighter-rouge">console.log()</code> within a <code class="language-plaintext highlighter-rouge">for</code> loop.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">name</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Adam</span><span class="dl">'</span><span class="p">;</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">name</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Fabian</span><span class="dl">'</span><span class="p">;</span>
 
 <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">name</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">.</span><span class="nx">charAt</span><span class="p">(</span><span class="nx">i</span><span class="p">));</span>

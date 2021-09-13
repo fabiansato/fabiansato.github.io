@@ -1,18 +1,18 @@
-/* Subscribe */
-.subscribe {
+/* Suscribite */
+.Suscribite {
   padding-bottom: 0;
 }
 
-.subscribe__inner {
+.Suscribite__inner {
   max-width: 580px;
   margin: 0 auto;
 }
 
-.subscribe__info {
+.Suscribite__info {
   margin-bottom: 40px;
   text-align: center;
 
-  .subscribe__title {
+  .Suscribite__title {
     position: relative;
     display: inline-block;
     margin-bottom: 32px;
@@ -41,7 +41,7 @@
     }
   }
 
-  .subscribe__subtitle {
+  .Suscribite__subtitle {
     margin: 0 auto;
     max-width: 430px;
     font-size: 28px;
@@ -50,7 +50,7 @@
   }
 
   @media only screen and (max-width: $mobile) {
-    .subscribe__title {
+    .Suscribite__title {
       font-size: 36px;
 
       &::after {
@@ -59,7 +59,7 @@
       }
     }
 
-    .subscribe__subtitle {
+    .Suscribite__subtitle {
       #ityped {
         font-size: 20px;
       }
@@ -67,7 +67,7 @@
   }
 
   @media only screen and (max-width: 360px) {
-    .subscribe__title {
+    .Suscribite__title {
       &::after {
         top: -34%;
         left: -9%;
@@ -76,13 +76,13 @@
   }
 }
 
-.subscribe-form {
+.Suscribite-form {
   display: flex;
   flex-direction: column;
   max-width: 360px;
   margin: 0 auto;
 
-  .subscribe-email {
+  .Suscribite-email {
     padding: 18px;
     margin-bottom: 20px;
     font-weight: 800;
@@ -133,13 +133,13 @@
 
 /* MailerLite Embedded Form Button */
 
-.ml-block-form { // .subscribe-form
+.ml-block-form { // .Suscribite-form
   display: flex;
   flex-direction: column;
   max-width: 360px;
   margin: 0 auto;
 
-  .form-control { // .subscribe-email
+  .form-control { // .Suscribite-email
     padding: 18px;
     margin-bottom: 20px;
     font-weight: 800;

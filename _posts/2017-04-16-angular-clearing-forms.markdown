@@ -53,7 +53,7 @@ export class AppComponent {
   constructor(private dummyService: DummyService) { }
 
   submitForm(form) {
-    this.dummyService.create(form).subscribe((res) => {
+    this.dummyService.create(form).Suscribite((res) => {
       this.submittedUser = res.message;
     });
   }
@@ -106,7 +106,7 @@ Now we can add the one line to clear our form on a successful response.
 ...
 
 submitForm(form) {
-  this.dummyService.create(form).subscribe((res) => {
+  this.dummyService.create(form).Suscribite((res) => {
     this.submittedUser = res.message;
     this.formValues.resetForm(); // Added this
   });

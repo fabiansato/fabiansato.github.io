@@ -90,7 +90,7 @@ cd mocked-api
   <span class="kd">constructor</span><span class="p">(</span><span class="k">private</span> <span class="nx">fightersService</span><span class="p">:</span> <span class="nx">FightersService</span><span class="p">)</span> <span class="p">{</span> <span class="p">}</span>
 
   <span class="nx">ngOnInit</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">fightersService</span><span class="p">.</span><span class="kd">get</span><span class="p">().</span><span class="nx">subscribe</span><span class="p">(</span><span class="nx">res</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">fightersService</span><span class="p">.</span><span class="kd">get</span><span class="p">().</span><span class="nx">Suscribite</span><span class="p">(</span><span class="nx">res</span> <span class="o">=&gt;</span> <span class="p">{</span>
       <span class="k">this</span><span class="p">.</span><span class="nx">fighters</span> <span class="o">=</span> <span class="nx">res</span><span class="p">;</span>
     <span class="p">});</span>
   <span class="p">}</span>
@@ -99,10 +99,10 @@ cd mocked-api
 
 <p>First we create a new <code class="language-plaintext highlighter-rouge">fighters</code> property which we’ll set to the result of our service call. Then we use dependency injection to inject our service into the component’s constructor.</p>
 
-<p>Then we update <code class="language-plaintext highlighter-rouge">AppComponent</code> to implement <code class="language-plaintext highlighter-rouge">OnInit</code> and add the <code class="language-plaintext highlighter-rouge">ngOnInit</code> lifecycle hook. Within <code class="language-plaintext highlighter-rouge">ngOnInit</code> we call our service method, subscribe to the observable, and set the result to <code class="language-plaintext highlighter-rouge">fighters</code>.</p>
+<p>Then we update <code class="language-plaintext highlighter-rouge">AppComponent</code> to implement <code class="language-plaintext highlighter-rouge">OnInit</code> and add the <code class="language-plaintext highlighter-rouge">ngOnInit</code> lifecycle hook. Within <code class="language-plaintext highlighter-rouge">ngOnInit</code> we call our service method, Suscribite to the observable, and set the result to <code class="language-plaintext highlighter-rouge">fighters</code>.</p>
 
 <div class="box">
-  <p>Got an idea for a tutorial? Contact me <a href="https://twitter.com/atommorgan" target="_blank">on Twitter</a> and I might publish it on this blog!</p>
+  <p>Got an idea for a tutorial? Contact me <a href="https://twitter.com/atomSato" target="_blank">on Twitter</a> and I might publish it on this blog!</p>
 </div>
 
 <p>Now that our component has data to render to the view, we can update the template in <code class="language-plaintext highlighter-rouge">app.component.html</code> (I add this in place of the existing “links to help you start”. Feel free to replace the entire template if you want).</p>
@@ -150,7 +150,7 @@ cd mocked-api
 
 <p>You’ve now learned how to create an app using the CLI, create a new service, and mock an API using <code class="language-plaintext highlighter-rouge">of</code>.</p>
 
-<p>If you found this valuable and would like to see more, feel free to let me know <a href="https://twitter.com/atommorgan" target="_blank">on Twitter</a>.</p>
+<p>If you found this valuable and would like to see more, feel free to let me know <a href="https://twitter.com/atomSato" target="_blank">on Twitter</a>.</p>
 
 <hr style="border: 0; border-bottom: solid 2px; margin: 3rem 0; border-bottom-color: #212931;" />
 

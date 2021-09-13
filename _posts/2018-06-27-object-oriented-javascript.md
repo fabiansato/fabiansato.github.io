@@ -22,7 +22,7 @@ style: code
 
 We've covered a lot of the basics of JavaScript up to this point. These are the building blocks—the fundamentals needed for programming. But we're now at a point where we can start using all of this to write simplified versions of programs you and I might actually use.
 
-In this tutorial, we're going to look at JavaScript by creating objects that we can instantiate using the `new` keyword as we saw in the [last tutorial](https://atom-morgan.github.io/functions/){:target="_blank"} when we were working with `Date`.
+In this tutorial, we're going to look at JavaScript by creating objects that we can instantiate using the `new` keyword as we saw in the [last tutorial](https://fabiansato.github.io/functions/){:target="_blank"} when we were working with `Date`.
 
 It won't be much longer before we're adding some of this functionality to an HTML page.
 
@@ -85,15 +85,15 @@ Up until this point we've been creating what are known as object literals. An ex
 
 ```javascript
 let user = {
-  name: 'Adam',
+  name: 'Fabian',
   age: 28
 };
 
-console.log(user.name); // Adam
+console.log(user.name); // Fabian
 console.log(user.age); // 28
 ```
 
-Then in the [previous tutorial](https://atom-morgan.github.io/functions/){:target="_blank"} we saw a new way of creating objects using the `new` keyword as we did with `Date`.
+Then in the [previous tutorial](https://fabiansato.github.io/functions/){:target="_blank"} we saw a new way of creating objects using the `new` keyword as we did with `Date`.
 
 ```javascript
 let now = new Date();
@@ -112,13 +112,13 @@ function Trainer(name) {
   this.name = name;
 }
 
-let trainer = new Trainer('Adam');
-console.log(trainer.name); // Adam
+let trainer = new Trainer('Fabian');
+console.log(trainer.name); // Fabian
 ```
 
 Here we've defined a constructor function `Trainer` with a single parameter `name`. Inside the constructor (or constructor function) the keyword `this` references the new object that's being created. So in the example a new `name` property is set to the value of the `name` parameter.
 
-Then we *instantiate the object* with the line: `let trainer = new Trainer('Adam');`. After that, `trainer` behaves just like any other object we've created so far.
+Then we *instantiate the object* with the line: `let trainer = new Trainer('Fabian');`. After that, `trainer` behaves just like any other object we've created so far.
 
 <div class="box" markdown="1">
 It's a popular convention in JavaScript to capitalize constructor functions. Any other function that isn't a constructor function is camel cased like `getArea`.
@@ -136,8 +136,8 @@ function Trainer(name) {
   };
 }
 
-let trainer = new Trainer('Adam');
-trainer.identify(); // The trainer is Adam
+let trainer = new Trainer('Fabian');
+trainer.identify(); // The trainer is Fabian
 ```
 
 Here we create a new `identify` property set to a function expression. Within that function, we print out the trainer's name by accessing the object's `name` property using `this.name`. Call `trainer.identify()` and you should see the message printed to your screen.

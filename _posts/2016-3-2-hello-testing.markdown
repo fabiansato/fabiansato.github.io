@@ -222,4 +222,4 @@ Save that file, run `jasmine spec/hello-testing.spec.js`, and you should see two
 
 ## Summary
 
-Hopefully you now know how to install Jasmine, setup a test file, and test a piece of code. If you have any questions or feedback feel free to reach out to me on Twitter [@atommorgan](http://twitter.com/atommorgan){:target="_blank"}.
+Hopefully you now know how to install Jasmine, setup a test file, and test a piece of code. If you have any questions or feedback feel free to reach out to me on Twitter [@atomSato](http://twitter.com/atomSato){:target="_blank"}.

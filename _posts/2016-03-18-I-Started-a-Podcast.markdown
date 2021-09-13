@@ -4,9 +4,9 @@ title: "I Started a Podcast"
 tag: [opinion]
 date: '2016-03-18'
 excerpt: >-
-  If you like my writing, tweets, or you're curious about my thoughts on current events, politics, and technology you can find my podcast The Adam Morgan Show on iTunes.
+  If you like my writing, tweets, or you're curious about my thoughts on current events, politics, and technology you can find my podcast The Fabian Sato Show on iTunes.
 description: >-
-  If you like my writing, tweets, or you're curious about my thoughts on current events, politics, and technology you can find my podcast The Adam Morgan Show on iTunes.
+  If you like my writing, tweets, or you're curious about my thoughts on current events, politics, and technology you can find my podcast The Fabian Sato Show on iTunes.
 ---
 
 I started a podcast. I've wanted to start my own for a long time but as usual I tend to sit on an idea for a long time before I finally act on it. Sometimes I think this is a bad trait but I wonder if it serves as a mechanism for me to internally test my level of commitment before jumping in.
@@ -19,4 +19,4 @@ Eventually it started to gain some traction. It had a bigger following than ever
 
 Unfortunately I started to lose interest in the blog and the platform after some time and I recently deleted it. Now, just like in college, I'm at a point where I want to continue sharing my thoughts. Programming as a career isn't the fairy tale tech tries to sell you. Millennials are fucked in a lot of ways. The economy and higher education are in a horrible state where most people my age are tens of thousands in debt with a piece of paper that gets them nothing. But I don't like writing enough just to do that.
 
-A podcast it is, then. If you like my writing, tweets, or you're curious about my thoughts on current events, politics, and technology you can find my podcast [The Adam Morgan Show](http://goo.gl/xzalp1){:target="_blank"} on iTunes.
+A podcast it is, then. If you like my writing, tweets, or you're curious about my thoughts on current events, politics, and technology you can find my podcast [The Fabian Sato Show](http://goo.gl/xzalp1){:target="_blank"} on iTunes.

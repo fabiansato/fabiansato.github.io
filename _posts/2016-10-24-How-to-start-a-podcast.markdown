@@ -17,7 +17,7 @@ Before we get into hosting and submitting to iTunes, the first thing you're goin
 
 The absolute barebones way to do this would be to record yourself through your phone. You don't *need* a mic but a little goes a long way and you can buy a basic [lapel mic](https://amzn.to/2PC5DVi){:target="_blank"} for about $20 on Amazon. I use this mic to record myself for the video versions of my podcast and my vlogs so if you want to hear how that sounds, you can get a preview [here](https://www.youtube.com/watch?v=L8O885Zx8CE){:target="_blank"}.
 
-I decided to invest a bit more when I first started so I bought a [Blue Snowball USB Microphone](https://amzn.to/31wxWKy){:target="_blank"}. This will give you better audio quality than a lapel mic or recording by talking directly into your phone without having to invest a lot of money. It's a very popular entry-level choice whether you're doing a podcast, vlogs, streams, etc., and the input being USB makes this mic very convenient. You can listen to the quality of this mic in one of my [earlier episodes](http://theadammorganshow.libsyn.com/8-generation-minecraft){:target="_blank"}.
+I decided to invest a bit more when I first started so I bought a [Blue Snowball USB Microphone](https://amzn.to/31wxWKy){:target="_blank"}. This will give you better audio quality than a lapel mic or recording by talking directly into your phone without having to invest a lot of money. It's a very popular entry-level choice whether you're doing a podcast, vlogs, streams, etc., and the input being USB makes this mic very convenient. You can listen to the quality of this mic in one of my [earlier episodes](http://theFabianSatoshow.libsyn.com/8-generation-minecraft){:target="_blank"}.
 
 > Warning: If you buy two of these mics with the idea that you'll record a guest with the other mic, it's not going to happen. You're better off recording the both of you with one mic or going an entirely separate route (I'll describe the one I chose shortly). The Snowball mics are produced with identical USB fingerprints which means that if you have two of these plugged into one computer, your computer thinks there's only one plugged in and will only ever record from one of the mics at a time.
 
@@ -43,7 +43,7 @@ For hosting I use [Libsyn](https://www.libsyn.com/){:target="_blank"}. They're a
 
 Once you create an account with them, there's really only two things left to get your podcast audio accessible to the world. First you need to "publish an episode" by uploading your audio file to Libsyn. Like I said, their support is amazing and they have an entire guide written on how to do that [here](https://support.libsyn.com/faqs/publish-episode-extras/){:target="_blank"}.
 
-After you've published your first episode you'll now have access to the RSS feed for your podcast. You can find this in the ["Destinations"](https://four.libsyn.com/destinations){:target="_blank"} tab in the Libsyn dashboard. It should look something like this: `http://theadammorganshow.libsyn.com/rss`. With that URL, you'll now be able to publish your podcast to places like iTunes and Google Play Music.
+After you've published your first episode you'll now have access to the RSS feed for your podcast. You can find this in the ["Destinations"](https://four.libsyn.com/destinations){:target="_blank"} tab in the Libsyn dashboard. It should look something like this: `http://theFabianSatoshow.libsyn.com/rss`. With that URL, you'll now be able to publish your podcast to places like iTunes and Google Play Music.
 
 Libsyn has a guide for submitting your podcast to iTunes [here](http://blog.libsyn.com/2016/02/16/changes-coming-to-the-itunes-submission-process/){:target="_blank"}. Google's process is much simpler and you can submit to them by clicking [here](https://play.google.com/music/podcasts/publish){:target="_blank"} and selecting "Publish".
 
@@ -59,6 +59,6 @@ Along with the new mics and the interface I also record in Garage Band now inste
 
 As you can see from the prices on Amazon this setup isn't cheap so unless you have money to burn I'd start with something less expensive like the Blue Snowball microphone I mentioned earlier.
 
-If you're curious about how this new audio setup sounds you can listen to the latest episode of my podcast [The Adam Morgan Show: A Libertarian Case for Trump](http://theadammorganshow.libsyn.com/36-a-libertarian-case-for-trump){:target="_blank"}.
+If you're curious about how this new audio setup sounds you can listen to the latest episode of my podcast [The Fabian Sato Show: A Libertarian Case for Trump](http://theFabianSatoshow.libsyn.com/36-a-libertarian-case-for-trump){:target="_blank"}.
 
-If you have any questions feel free to reach out to me [on Twitter](https://twitter.com/atommorgan){:target="_blank"}.
+If you have any questions feel free to reach out to me [on Twitter](https://twitter.com/atomSato){:target="_blank"}.
