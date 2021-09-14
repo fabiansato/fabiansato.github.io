@@ -42,10 +42,9 @@ author:
   title: 👋Hola soy Fabian Sato
   # bio: Art Director & Graphic Designer based in Australia, crafting beautiful and functional websites and mobile apps. When I’m not working, I’m probably listening to relaxing music or traveling somewhere.
   bio: "
-   <b>Desarrollador Web Senior</b> en <b>Unilever</b> con plataforma Adobe Experience Manager (AEM).
+   <b>Desarrollador Web Senior</b> en <b>Unilever</b> con plataforma Adobe Experience Manager (AEM).<br/>
 <b>Tecnologías</b>: HTML, CSS, Javascript, PHP, Mysql, Reactjs, NodeJS.<br/>
-<b>Títulos</b>: de diseñador gráfico digital y Fullstack Developer + React (Universidad Tecnológica nacional) .<br/><br/>
-     Me gusta practicar código y mejorar día a día. Además me encanta muchisimo el mundo Geek 🤓"
+<b>Títulos</b>: de diseñador gráfico digital y Fullstack Developer + React (Universidad Tecnológica nacional). Además me encanta muchisimo el mundo Geek 🤓 "
   image: '/images/sato-avatar-full.png'
   avatar: '/images/sato-avatar.png'
   button__text: Ver mi trabajo
