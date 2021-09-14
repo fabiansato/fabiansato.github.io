@@ -1,0 +1,30 @@
+I"�<h2 id="introducción">Introducción</h2>
+<p>En este simple tutorial aprenderemos a subir nuestro proyecto ReactJS a un servidor compartido</p>
+
+<h2 id="setup">Setup</h2>
+<p>Simplemente vamos a nuestro package.json y agregamos el siguiente atributo:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">"homepage"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://nombredenuestrodominio"</span><span class="w">
+</span></code></pre></div></div>
+
+<p>El mejor lugar para colocarlo es arriba de “scripts”</p>
+
+<p>Una vez hecho esto hacemos en el terminal:</p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">npm run build
+</span></code></pre></div></div>
+
+<p>Podemos encontrar todo nuestro proyecto en la carpeta <code class="language-plaintext highlighter-rouge">build</code> entramos a la misma y abrimos el archivo <code class="language-plaintext highlighter-rouge">index.html</code> para testear que se vé nuestro proyecto completo.</p>
+
+<p>Si este problema persiste podemos agregar:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">"homepage"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/"</span><span class="w">
+</span></code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">Tip si persiste el error</code>: Si seguimos sin ver nuestra web abrimos el archivo <code class="language-plaintext highlighter-rouge">index.html</code> dentro de la carpeta <code class="language-plaintext highlighter-rouge">build</code> y cambiamos todas las url internas en el archivo html por alguna externa (donde ya tengamos el ftp subido) y eo soluciona todo</p>
+
+<p>Una vez que vemos que todo el proyecto funciona correctamente sólo nos queda subir el proyecto a una web tradicional compartida con ftp.</p>
+
+<p>¡Listo!
+¡Espero que el tutorial te sirva!</p>
+:ET

@@ -1,0 +1,31 @@
+I"�<!-- <div class="gallery-box">
+  <div class="gallery">
+    <img src="/images/project-5.jpg" alt="Project">
+    <img src="/images/project-8.jpg" alt="Project">
+    <img src="/images/project-7.jpg" alt="Project">
+  </div>
+  <em>Projects / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
+</div> -->
+
+<div class="block-header inner-sm" style="margin-top: 1.5em; margin-bottom: 1.5em">
+  <h2 class="block-title line-top">Descripción</h2>
+</div>
+
+<p>Landing creada para las promociones vigentes en Unilever. Allí se alojan y muestran todas los datacaptures que fui creando para diversas marcas conglomerados. Esta OnePage Landing sirve para poder catalogar las promociones que serán accesibles mediante promociones en TV, banners, anuncios en la calle y diversas redes sociales
+Trabajo realizado junto con el equipo de Oliver Argentina (Ustudio).</p>
+
+<div class="block-header inner-sm" style="margin-bottom: 1.5em">
+  <h2 class="block-title line-top">Tecnologías usadas</h2>
+</div>
+
+<p>Si bien no serán todas las tecnologías usadas (porque son muchas más). Acá dejo una lista</p>
+
+<ul>
+  <li>ReactJS</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Javascript</li>
+  <li>NPM</li>
+  <li>NodeJS</li>
+</ul>
+:ET
