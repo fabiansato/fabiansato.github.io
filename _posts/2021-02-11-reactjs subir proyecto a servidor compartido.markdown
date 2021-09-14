@@ -1,10 +1,16 @@
 ---
+title: 'ReactJS - Subir proyecto a servidor compartido'
+date: '2018-12-15'
 layout: post
-title:  ReactJS - Subir a un server compartido
-date:   2021-02-11 15:05:55 -0300
-image:  /assets/images/blog/javascript-operadores-ternarios.jpg
 author: fabiansato
-tags:   nodejs
+tag: [tutorial, WebDev, JavaScript]
+excerpt: >-
+  In this tutorial we'll be building off of the previous tutorial updating our form to make our first HTTP request to the PokéAPI.
+description: >-
+  In this tutorial we'll be building off of the previous tutorial updating our form to make our first HTTP request to the PokéAPI.
+image: '/images/ajax/tutorial-cover.png'
+thumb_image: '/images/ajax/tutorial-cover.png'
+style: code
 ---
 
 **En este simple tutorial aprenderemos a subir nuestro proyecto ReactJS a un servidor compartido**

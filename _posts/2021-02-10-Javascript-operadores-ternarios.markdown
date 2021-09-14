@@ -1,10 +1,16 @@
 ---
+title: 'Javascript - Operadores ternarios'
+date: '2018-12-15'
 layout: post
-title:  Javascript - Operadores ternarios
-date:   2021-02-10 15:05:55 -0300
-image:  /assets/images/blog/javascript-operadores-ternarios.jpg
 author: fabiansato
-tags:   javascript, desarrolloweb, frontend
+tag: [tutorial, WebDev, JavaScript]
+excerpt: >-
+  In this tutorial we'll be building off of the previous tutorial updating our form to make our first HTTP request to the PokéAPI.
+description: >-
+  In this tutorial we'll be building off of the previous tutorial updating our form to make our first HTTP request to the PokéAPI.
+image: '/images/ajax/tutorial-cover.png'
+thumb_image: '/images/ajax/tutorial-cover.png'
+style: code
 ---
 
 **El operador ternario es aquel que nos sirve para escribir el código de una sentencia if de una forma más sencilla. Veremos como hacerlo**
