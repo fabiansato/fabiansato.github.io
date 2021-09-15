@@ -51,5 +51,4 @@ Vemos que la cantidad de código Javascript a escribir es menor que cuando utili
 > Con el operador dernario podremos visualizar nuestro código de mas limpio y ejecutar condicionales if en una sóla línea
 
 Les dejo un video explicando como funciona el markdown en nuestro código Javascript:
-
-[![Everything Is AWESOME](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")
+<iframe width="480" height="215" src="https://www.youtube.com/embed/ww0Pl8-mMng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
