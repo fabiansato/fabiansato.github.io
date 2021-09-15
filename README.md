@@ -1,30 +1,25 @@
-# Avenco - Creative Portfolio Theme for Jekyll
+# Página web de FabianSato hecha en Jekyll
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b81e1c88-a527-4fd7-a9ab-00dd818a81be/deploy-status)](https://app.netlify.com/sites/vibrant-kirch-7119c2/deploys)
+To Do:
+-subir repositorio backend fabian sato
+-crear un javascript con un modal de registración (confetti)
+-sacar nueva foto al sol (2 fotos) con ropa linda
+-cambiar secciones por nuevas fotos
+-agregar seccion "links"
+-subir tutorial de "jekyll ofline"
+-anotar tutoriales de inicio obligatorio de frontend 
 
-Avenco is a modern and minimal portfolio theme for Jekyll. This theme was specially created to help show your work in a simple yet creative way. Also, the Avenco theme includes several basic and easily customizable sections such as Works, Testimonials, Blog, Contact and therefore will be a good choice for any freelancer, designer, or developer.
+-acomodar posicion Marcas para las que Trabajé
+-agregar seccion "cursos" (en jekyll)
+-agregar sitio a google search console
+-agregar canal rss para jekyll
+-optimizar web con google speed insight
+-compartir trabajos (landing)
+-compartir 2 posts de blogs
+-agregar sitemaps a jekyll
 
-* * *
+-comprar dominio fabiansato.dev
 
-### Demo
-
-Check the theme in action [Demo](https://avenco.netlify.app/)
-
-* * *
-
-### Deployment
-
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
-
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
-
-
-* * *
-
-### Documentation
-
-Before using the Avenco theme, please read the attached documentation.
-
-### Support
-
-<p>If you have any questions, please feel free to contact me by mail <a href="mailto:artemsheludko@tuta.io">Contact</a><p>
+-crear contenido inicio obligatorio frontend
+-hacer imagenes para inicio obligatorio frontend
+-crear cursos en solapa "cursos" (gratuitos)
