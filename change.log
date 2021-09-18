@@ -1,14 +1,17 @@
 
-15-0-2021
+15-09-2021
 -subido repositorio backend fabian sato
 -sacar nueva foto al sol (2 fotos)
 -cambiado las secciones por nuevas fotos
 
+16-09-2021
 
 -----------------------
 To Do:
 -crear un javascript con un modal de registración (confetti)
--mejorar css de paddings
+-mejorar css de paddings de galeria y pagina
+-fixear problemas con responsive del blog
+-fixear problemas con resposive de about
 
 -agregar seccion "links"
 -subir tutorial de "jekyll ofline"
@@ -22,6 +25,7 @@ To Do:
 -compartir trabajos (landing)
 -compartir 2 posts de blogs
 -agregar sitemaps a jekyll
+
 
 -comprar dominio fabiansato.dev
 
