@@ -1,5 +1,5 @@
 ---
-title: 'ReactJS - Subir tu proyecto ReactJS a un servidor compartido (server tradicional)'
+title: 'ReactJS - Subir tu proyecto ReactJS a un servidor compartido'
 date: '2021-09-13'
 layout: post
 tag: [tutorial, WebDev, ReactJS]

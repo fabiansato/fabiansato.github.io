@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Mis trabajos
-description: Web development, Diseño gráfico, Creación de WebApps. Mis trabajos para diferentes marcas y empresas:
+description: Web development, Diseño gráfico, Creación de WebApps. Mis trabajos para diferentes marcas y empresas
 image: '/images/portfolio/book.jpg'
 ---
+
 <div class="container">
   <div class="page-head">
     <h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.projects__settings.projects__title }}{% endif %}</h1>
@@ -18,7 +19,7 @@ image: '/images/portfolio/book.jpg'
 <div class="container animate">
   <div class="row">
     {% for project in site.projects reversed %}
-      <article class="project col col-4 col-d-6 col-t-12">
+      <article class="project col col-sm-6 col-md-6">
         <div class="project__content">
           <a href="{{ project.url }}" class="project__image">
             <img class="lazy" data-src="{{ project.image }}" alt="{{ project.title }}">
