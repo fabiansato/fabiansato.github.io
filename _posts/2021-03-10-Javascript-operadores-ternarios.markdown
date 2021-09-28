@@ -1,6 +1,6 @@
 ---
 title: 'Javascript - Operadores Ternarios'
-date: '2021-09-13'
+date: '2021-10-03'
 layout: post
 tag: [tutorial, WebDev, Javascipt]
 excerpt: >-
