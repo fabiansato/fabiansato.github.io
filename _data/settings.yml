@@ -56,7 +56,7 @@ author:
 projects__settings:
   projects__title: Últimos <span class="text-span">Trabajos</span> # Add a 'text-span' class to highlight text.
   projects__description: "
-    Todos mis últimos trabajos de desarrollo y diseño web. 
+    Todos mis últimos trabajos de desarrollo y diseño web.
     "
 
 
@@ -110,10 +110,10 @@ contact__settings:
 #-------------------------------
 # Newsletter Settings
 mailchimp__settings:
-  mailchimp__title: <span class="text-span">Únete</span> a las noticias  # Add your title
-  mailchimp__text: " 'Para recibir info de Desarrollo web', 'Para recibir info de Diseño y el mundo Geek ' " # Add descriptions to the form by wrapping the text in single quotes. If you want to use more than one sentence, be sure to separate them with a comma.
+  mailchimp__title: <span class="text-span">Contáctate</span> Conmigo  # Add your title
+  mailchimp__text: " 'Para hablar de trabajo', 'Para hablar de programación, Diseño y el mundo Geek ' " # Add descriptions to the form by wrapping the text in single quotes. If you want to use more than one sentence, be sure to separate them with a comma.
   mailchimp__identifier:  http://eepurl.com/hIkfHr # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/Suscribite/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
-  mailchimp__button__text: Suscribete # Add your button text
+  mailchimp__button__text: Mandame Whatsapp &nbsp; <i class="ion ion-logo-whatsapp"></i> # Add your button text
 
 
 #-------------------------------
