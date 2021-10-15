@@ -82,8 +82,9 @@
   <meta name="twitter:creator" content="@fabiansatodev" /> <!-- Cambiar por tu usuario de twitter -->
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
   {% if page.image %}
-  <meta name="twitter:image" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}{{ page.image.path }}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
   {% endif %}
 
   {% if page.is_post %}

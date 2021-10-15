@@ -2,7 +2,7 @@
 layout: page
 title: About
 description: Some extra details about myself.
-image: '/images/fabiansato-about.jpeg'
+image: '/images/fabiansato-about.jpg'
 ---
 
 I started my career in marketing consulting working with a variety of Fortune 500 companies. My main focus was data analysis but after coding a few internal tools I eventually decided to quit my job and enter the tech industry.

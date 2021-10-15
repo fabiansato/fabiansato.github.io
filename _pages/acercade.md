@@ -2,7 +2,7 @@
 layout: acercade
 title: Fabian Gonzalez (Sato)
 description: Detalles de mí
-image: '/images/fabiansato-about.jpeg'
+image: '/images/fabiansato-about.jpg'
 ---
 Al haber estudiado Diseño gráfico y actualmente haciendo la licenciatura de informática hago una mixtura de ambos conocimientos y realizo trabajos de programación fullstack (front-end como backend). Me gusta practicar y mejorar día a día. Actualmente doy clases de programación mediante mis cursos (web, html, css3)
 

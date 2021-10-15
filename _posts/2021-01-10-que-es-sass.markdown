@@ -14,6 +14,7 @@ author: fabiansato
 ---
 
 ### ¿Qué es SASS?
+
 Sass es un preprocesador CSS es una herramienta que nos permite generar, de manera automática, hojas de estilo, añadiéndoles características que no tiene CSS, y que son propias de los lenguajes de programación, como pueden ser variables, funciones, selectores anidados, herencia, etcétera.
 
 Estas características de los procesadores nos permiten, además, que el CSS que se genera sea más fácil de mantener y más reutilizable.
@@ -52,7 +53,7 @@ Instalaremos sass en nuestro proyecto
 gem install sass
 ´´´
 
-luego tipearemos 
+luego tipearemos
 ´´´
 sass -v
 ´´´
