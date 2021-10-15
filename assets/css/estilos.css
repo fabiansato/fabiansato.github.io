@@ -5,16 +5,16 @@ a {text-decoration: none !important;}
 .nav__list .nav__item .nav__link {
 
     font-weight: 700 !important;
- 
+
 }
 
 .author__left .author__btn {
 	font-weight: 700 !important;
- 
+
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
- 
+
     bottom: 0px !important;
     padding-top: 90px;
 }
@@ -74,7 +74,7 @@ a {text-decoration: none !important;}
     width: 100%;
     position: absolute;
     top:50vh;
-    
+
 }
 
 .context h1{
@@ -85,12 +85,12 @@ a {text-decoration: none !important;}
 
 
 .area{
-    background: #4e54c8;  
-    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    background: #4e54c8;
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
     width: 100%;
     height:100vh;
-    
-   
+
+
 }
 
 .circles{
@@ -111,7 +111,7 @@ a {text-decoration: none !important;}
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
     bottom: -150px;
-    
+
 }
 
 .circles li:nth-child(1){
@@ -205,3 +205,37 @@ a {text-decoration: none !important;}
         opacity: 0;
         border-radius: 50%;
     }
+}
+.linksButton{
+      display: block;
+
+  font-size: 0.8em;
+  padding: 14px 28px;
+width: 100%;
+  cursor: pointer;
+  text-align: center;
+        position: relative;
+    z-index: 1;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 1.3;
+    font-weight: 800;
+    border-radius: 30px;
+    white-space: nowrap;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: #fff;
+    background: linear-gradient(90deg, #4235d0 0%, #f969cd 167%);
+    transition: all .25s ease;
+
+}
+
+.linksButton:hover{
+
+    color: #fff;
+    background: linear-gradient(90deg, #5647ff 0%, #ffb1e8 167%);
+    transition: all .25s ease;
+
+}

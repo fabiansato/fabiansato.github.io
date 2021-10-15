@@ -1,0 +1,39 @@
+I"(<h2 id="introducción">Introducción</h2>
+<p>El operador ternario es aquel que nos sirve para escribir el código de una sentencia if de una forma más sencilla. Imaginemos que tenemos un ejemplo que nos calcula cuál es el mayor de dos número en Javascript. El código sería sencillo como comprobamos a continuación.</p>
+
+<h2 id="manos-a-la-obra">Manos a la obra!</h2>
+<p>Miremos como tradicionalmente cargaríamos una variable y la evaluaríamos con un <code class="language-plaintext highlighter-rouge">if</code> y un <code class="language-plaintext highlighter-rouge">else</code></p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">y</span> <span class="o">=</span> <span class="mi">8</span><span class="p">;</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nx">x</span><span class="o">&gt;</span><span class="nx">y</span><span class="p">)</span>
+  <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="dl">"</span><span class="s2">El mayor de los dos números es </span><span class="dl">"</span> <span class="o">+</span> <span class="nx">x</span><span class="p">);</span>
+<span class="k">else</span>
+  <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="dl">"</span><span class="s2">El mayor de los dos números es </span><span class="dl">"</span> <span class="o">+</span> <span class="nx">y</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>Vemos que tenemos una estructura de control if que ejecuta una sentencia en caso de que la validación correcta y la sentencia else en el caso de que la validación de if sea incorrecta. El operador ternario en Javascript nos permite hacer esto en una sola línea de código.</p>
+
+<p>La estructura del operador tenernario es la siguiente:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">resultado</span> <span class="o">=</span> <span class="p">(</span><span class="nx">condicion</span><span class="p">)?</span><span class="nx">valor1</span><span class="p">:</span><span class="nx">valor2</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>Si la condición es verdadera se asigna el valor1 como resultado, en caso contrario se asigna el valor2. Vemos que el operador ternario se representa mediante una interrogación ? y dos puntos :</p>
+
+<p>Para realizar el código del mayor de dos número escribiremos las siguientes sentencias de código Javascript.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">mayor</span> <span class="o">=</span> <span class="p">(</span><span class="nx">x</span><span class="o">&gt;</span><span class="nx">y</span><span class="p">)?</span><span class="nx">x</span><span class="p">:</span><span class="nx">y</span><span class="p">;</span>
+<span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="dl">"</span><span class="s2">El mayor de los dos números es </span><span class="dl">"</span> <span class="o">+</span> <span class="nx">mayor</span><span class="p">);</span>
+
+
+</code></pre></div></div>
+
+<p>Vemos que la cantidad de código Javascript a escribir es menor que cuando utilizábamos la estructura de control if</p>
+
+<blockquote>
+  <p>Con el operador dernario podremos visualizar nuestro código de mas limpio y ejecutar condicionales if en una sóla línea</p>
+</blockquote>
+
+<p>Les dejo un video explicando como funciona el markdown en nuestro código Javascript:</p>
+<iframe width="480" height="215" src="https://www.youtube.com/embed/ww0Pl8-mMng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+:ET
