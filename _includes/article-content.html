@@ -1,4 +1,4 @@
-<div class="article col col-4 col-d-6 col-t-12">
+<div class="article col col-sm-6 col-md-6 col-lg-4 col-xl-3">
   <div class="article__inner">
 
     {% if post.image %}
@@ -28,11 +28,11 @@
       </p>
 
       <div class="article__meta">
-        <a href="{{site.baseurl}}/about/" class="article__author-image">
+        <a href="{{site.baseurl}}/acercade/" class="article__author-image">
           <img src="{{site.data.settings.author.avatar}}" alt="{{site.data.settings.author.name}}">
         </a>
         <div class="article-info">
-          <a href="{{site.baseurl}}/about/" class="article__author-link">{{site.data.settings.author.name}}</a>
+          <a href="{{site.baseurl}}/acercade/" class="article__author-link">{{site.data.settings.author.name}}</a>
           <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></span>
         </div>
       </div>

@@ -124,9 +124,9 @@ window.addEventListener("load", function(){
       items: 3,
       slideBy: 1,
       gutter: 32,
-      nav: false,
+      nav: true,
       mouseDrag: true,
-      autoplay: false,
+      autoplay: true,
       controlsContainer: "#customize-controls",
       responsive: {
         1024: {
