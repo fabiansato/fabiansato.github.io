@@ -18,7 +18,6 @@ To Do:
 -compartir 2 posts de blogs
 -agregar sitemaps a jekyll
 
--comprar dominio fabiansato.dev
 
 -crear contenido inicio obligatorio frontend
 -hacer imagenes para inicio obligatorio frontend
