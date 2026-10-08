@@ -1,11 +1,12 @@
+{% assign card_heading = 'h3' %}{% if page.layout == 'listing' %}{% assign card_heading = 'h2' %}{% endif %}
 <article class="project-card" data-filter-item data-group="{{ project.group | default: 'client' }}" data-search="{{ project.title | append: ' ' | append: project.subtitle | append: ' ' | append: project.description | append: ' ' | append: project.technologies | append: ' ' | append: project.tags | escape }}">
 <a class="project-visual {% unless project.image %}project-typographic{% endunless %}" href="{{ project.url | relative_url }}" tabindex="-1" aria-hidden="true">{% if project.image %}<img src="{{ project.image | relative_url }}" alt="" width="800" height="550" loading="lazy">{% else %}<span class="project-monogram">{% if project.group == 'lab' %}&lt;/&gt;{% else %}AEM{% endif %}</span>
 <span>{{ project.title }}</span>{% endif %}<span class="card-arrow" aria-hidden="true">↗</span>
 </a>
 <div class="project-meta">
 <span>{% if project.group == 'lab' %}{{ t.lab }}{% else %}{{ project.subtitle | default: t.client }}{% endif %}</span>{% if project.year %}<span>{{ project.year }}</span>{% endif %}</div>
-<h3>
+<{{ card_heading }}>
 <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-</h3>
+</{{ card_heading }}>
 <p>{{ project.description }}</p>
 </article>

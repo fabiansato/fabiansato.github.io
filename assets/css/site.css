@@ -414,7 +414,7 @@ a:hover {
   color:var(--muted);
   text-transform:uppercase
 }
-.project-card h3 {
+.project-card :is(h2,h3) {
   font-size:1.28rem;
   line-height:1.2
 }
@@ -488,7 +488,7 @@ a:hover {
 .post-label time {
   color:var(--muted)
 }
-.post-row h3 {
+.post-row :is(h2,h3) {
   font-size:1.5rem;
   line-height:1.25;
   font-weight:600
@@ -1069,7 +1069,7 @@ a:hover {
     grid-template-columns:repeat(2,minmax(0,1fr));
     gap:35px 18px
   }
-  .project-card h3 {
+  .project-card :is(h2,h3) {
     font-size:1.1rem
   }
   .project-card p {
@@ -1120,7 +1120,7 @@ a:hover {
     gap:18px;
     font-size:.62rem
   }
-  .post-row h3 {
+  .post-row :is(h2,h3) {
     font-size:1.25rem
   }
   .post-row p {
@@ -1216,7 +1216,7 @@ a:hover {
   .project-visual {
     aspect-ratio:1.5
   }
-  .project-card h3 {
+  .project-card :is(h2,h3) {
     font-size:1.35rem
   }
   .project-card p {

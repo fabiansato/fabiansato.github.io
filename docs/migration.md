@@ -32,6 +32,8 @@ Los repositorios destino se comprobaron antes de trabajar: perfil `f310a19669aaa
 - Conservar slugs históricos de fichas y artículos, con navegación explícita a su traducción.
 - Separar trabajos de clientes de laboratorios y enlazar los repositorios que respaldan cada descripción.
 - Mantener las imágenes recuperadas como registro histórico de las versiones documentadas.
+- Recuperar los dos tutoriales originales de 2021 del sitio destino, preservar sus permalinks y añadir traducciones completas con revisión técnica explícita.
+- Resultado editorial: 40 proyectos y 6 artículos por idioma.
 - Reemplazar los workflows duplicados por uno que valida PR y publica solo `main`.
 - Retirar `jekyll-paginate` y `jekyll-tagging`; los listados se generan con Liquid y se filtran progresivamente en el navegador. El plugin de sitemap se conserva y el RSS se genera mediante plantillas del sitio.
 - Fijar Ruby **3.4.11**, Jekyll **4.4.1** y Bundler **2.6.9**, con un lockfile resuelto realmente para macOS ARM y Linux.
@@ -40,15 +42,15 @@ La compilación sigue el propósito de la skill `verify-build` del repositorio f
 
 ## Paso necesario en GitHub Pages
 
-Durante la revisión, Pages todavía utilizaba el modo **legacy**, rama `main`, carpeta `/`. Para que se utilicen las dependencias del nuevo `Gemfile.lock`, cambiar una sola vez la fuente de publicación a **GitHub Actions** en Settings → Pages. Después, el workflow de `main` publicará el artefacto generado.
+Pages utilizaba el modo **legacy**, rama `main`, carpeta `/`. El 8 de octubre de 2026 se cambió a **GitHub Actions** mediante la API de GitHub. El workflow de `main` compila con el lockfile y publica el artefacto generado. La primera versión renovada se verificó en el dominio público.
 
-Los archivos de esta migración no prueban por sí solos que el despliegue haya ocurrido. Confirmarlo en Actions y en el dominio final. Si el contenido aún está en un PR, el sitio público seguirá mostrando la versión anterior hasta integrar y desplegar.
+Para próximas actualizaciones, confirmar el resultado en Actions y en el dominio final. Los cambios en PR se validan, pero no se publican hasta integrar en `main`.
 
 El hostname antiguo `fabiangonzalezdev.github.io` depende del usuario anterior y de GitHub. Este repositorio no puede garantizar una redirección desde ese dominio. Los enlaces y las URL canónicas nuevos apuntan a `fabiansato.github.io`.
 
 ## Verificación y entorno local
 
-La compilación real y `bin/check` pasaron con Ruby 3.4.11 y Jekyll 4.4.1: **111 páginas HTML**, enlaces locales, anclas, alternativas ES/EN y **3 archivos XML** válidos. La página bilingüe 404 y la entrada histórica `/about` se comprueban como rutas especiales sin exigirles una pareja de traducción; el archivo de verificación de Google se reconoce por su contenido exacto.
+La compilación real y `bin/check` pasaron con Ruby 3.4.11 y Jekyll 4.4.1: **115 páginas HTML**, enlaces locales, anclas, alternativas ES/EN y **3 archivos XML** válidos. La página bilingüe 404 y la entrada histórica `/about` se comprueban como rutas especiales sin exigirles una pareja de traducción; el archivo de verificación de Google se reconoce por su contenido exacto.
 
 El equipo de trabajo tenía Ruby 2.6 del sistema; se descargó el runtime oficial de `ruby/ruby-builder` y se reubicó en un directorio temporal, junto con las bibliotecas GMP/YAML de Homebrew. No se reemplazó Ruby del sistema.
 
@@ -62,4 +64,4 @@ This migration keeps Jekyll and GitHub Pages, restores historical project assets
 
 The website and GitHub profile README remain separate repositories. Spanish is served at `/`, English at `/en/`. The new build uses Ruby 3.4.11, Jekyll 4.4.1 and a generated dependency lockfile. A single workflow validates PRs and deploys only `main`.
 
-Before the first deployment, change GitHub Pages from its observed legacy `main`/root mode to **GitHub Actions**. Check the completed deployment and final domain; source changes alone do not prove publication. Redirecting the former username’s hostname is outside this repository’s control.
+GitHub Pages was switched from legacy `main`/root mode to **GitHub Actions** on October 8, 2026. The first renewed version was verified on the public domain. For later changes, check the completed workflow and final domain. Redirecting the former username’s hostname is outside this repository’s control.

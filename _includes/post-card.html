@@ -1,12 +1,13 @@
+{% assign card_heading = 'h3' %}{% if page.layout == 'listing' %}{% assign card_heading = 'h2' %}{% endif %}
 <article class="post-row" data-filter-item data-group="{{ post.category_slug }}" data-search="{{ post.title | append: ' ' | append: post.excerpt | append: ' ' | append: post.tags | escape }}">
 <div class="post-label">
 <span>{{ post.category }}</span>
 <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d.%m.%Y' }}</time>
 </div>
 <div>
-<h3>
+<{{ card_heading }}>
 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-</h3>
+</{{ card_heading }}>
 <p>{{ post.excerpt | strip_html }}</p>
 </div>
 <span class="post-arrow" aria-hidden="true">↗</span>
