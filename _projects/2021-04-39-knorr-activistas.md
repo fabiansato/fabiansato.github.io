@@ -1,32 +1,25 @@
 ---
-title: Data capture - Knorr activistas de la mesa
-date: 2021-09-14 07:30:35 +0300
-subtitle: Trabajo junto a Oliver Argentina
-description: Cliente - Oliver
-image: '/images/portfolio/knorr activistas de la mesa.jpg'
+title: "Knorr · Activistas de la Mesa"
+slug: "knorr-activistas"
+date: "2021-09-14 07:30:35 +0300"
+layout: "project"
+lang: "es"
+permalink: "/project/knorr-activistas"
+translation_url: "/en/project/knorr-activistas"
+group: "client"
+year: "2021"
+featured: false
+order: 36
+subtitle: "Campaña de registro · OLIVER / Unilever"
+description: "Landing y flujo de registro para Activistas de la Mesa, una campaña de Knorr."
+image: "/assets/images/portfolio/knorr activistas de la mesa.webp"
+technologies: ["React", "HTML", "CSS", "JavaScript", "Node.js", "MySQL", "APIs"]
 ---
 
+Landing y flujo de registro para Activistas de la Mesa, una campaña de Knorr.
 
+Desarrollo realizado con OLIVER Argentina / Ustudio. El trabajo combinó la implementación de la identidad visual de campaña con una experiencia de captura de datos en React.
 
-<div class="block-header inner-sm" style="margin-top: 1.5em; margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Descripción</h2>
-</div>
+## Tecnologías
 
-Data capture para la marca Knorr activistas de la mesade Unilever, trabajado junto mi equipo Ustudio (oliver) hicimos desde el UX/UI desarrollo en react y conexión con base de datos y API externa. 
-Trabajo realizado junto con el equipo de Oliver Argentina (Ustudio).
-
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Tecnologías usadas</h2>
-</div>
-
-Si bien no serán todas las tecnologías usadas (porque son muchas más). Acá dejo una lista
-
-
-- ReactJS
-- HTML
-- CSS
-- Javascript
-- NPM
-- NodeJS
-- Mysql
-- Conexión API
+React, HTML, CSS, JavaScript, Node.js, MySQL, APIs.

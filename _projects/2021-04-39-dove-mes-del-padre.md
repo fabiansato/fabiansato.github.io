@@ -1,32 +1,25 @@
 ---
-title: Data capture - Dove mes del padre
-date: 2021-09-14 07:30:35 +0300
-subtitle: Trabajo junto a Oliver Argentina
-description: Cliente - Oliver
-image: '/images/portfolio/dovemesdelpadre.jpg'
+title: "Dove · Mes del Padre"
+slug: "dove-mes-del-padre"
+date: "2021-09-14 07:30:35 +0300"
+layout: "project"
+lang: "es"
+permalink: "/project/dove-mes-del-padre"
+translation_url: "/en/project/dove-mes-del-padre"
+group: "client"
+year: "2021"
+featured: false
+order: 34
+subtitle: "Campaña de registro · OLIVER / Unilever"
+description: "Experiencia de participación para la campaña Mes del Padre de Dove."
+image: "/assets/images/portfolio/dovemesdelpadre.webp"
+technologies: ["React", "HTML", "CSS", "JavaScript", "Node.js", "MySQL", "APIs"]
 ---
 
+Experiencia de participación para la campaña Mes del Padre de Dove.
 
+Implementación de interfaz y captura de datos junto a OLIVER Argentina / Ustudio. La campaña forma parte del trabajo de experiencias promocionales desarrollado para marcas de Unilever.
 
-<div class="block-header inner-sm" style="margin-top: 1.5em; margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Descripción</h2>
-</div>
+## Tecnologías
 
-Data capture para la marca Dove mes del padre de Unilever, trabajado junto mi equipo Ustudio (oliver) hicimos desde el UX/UI desarrollo en react y conexión con base de datos y API externa. 
-Trabajo realizado junto con el equipo de Oliver Argentina (Ustudio).
-
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Tecnologías usadas</h2>
-</div>
-
-Si bien no serán todas las tecnologías usadas (porque son muchas más). Acá dejo una lista
-
-
-- ReactJS
-- HTML
-- CSS
-- Javascript
-- NPM
-- NodeJS
-- Mysql
-- Conexión API
+React, HTML, CSS, JavaScript, Node.js, MySQL, APIs.

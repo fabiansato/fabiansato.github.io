@@ -1,31 +1,29 @@
 ---
-title: Suave - Página Oficial Argentina
-date: 2018-06-14 07:30:35 +0300
-subtitle: Desarrollo Web
-description: Cliente - Uniliver
-image: '/images/portfolio/suave-pagina.jpg'
+title: "Suave Argentina"
+slug: "suave-pagina"
+date: "2018-06-14 07:30:35 +0300"
+layout: "project"
+lang: "es"
+permalink: "/project/suave-pagina"
+translation_url: "/en/project/suave-pagina"
+group: "client"
+year: "2018"
+featured: false
+order: 21
+subtitle: "Sitio de marca"
+description: "Desarrollo y mantenimiento web para la presencia digital de Suave en Argentina."
+image: "/assets/images/portfolio/suave-pagina.webp"
+technologies: ["HTML", "CSS", "JavaScript", "WordPress"]
 ---
 
+Desarrollo y mantenimiento web para la presencia digital de Suave en Argentina.
 
+El alcance documentado incluye implementación de la interfaz, mantenimiento del código y actualización de contenidos. Un proyecto de marca pensado para mantener una presentación consistente de sus productos.
 
-<div class="block-header inner-sm" style="margin-top: 1.5em; margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Descripción</h2>
-</div>
+## Tecnologías
 
-Programación de página web, diseño UX/UI y desarrollo de página de e-commerce. Página de oficial de Suave Argentina (mantenimiento de código, agregado de recetas y productos)
+HTML, CSS, JavaScript, WordPress.
 
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Tecnologías usadas</h2>
-</div>
+## Captura del proyecto
 
- Acá dejo una lista
-
-- HTML
-- CSS
-- Javascript
-- Wordpress
-
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Screenshot Completo:</h2>
-</div>
- <img src="/images/portfolio/suave-pagina-full.jpg">
+![Suave Argentina](/assets/images/portfolio/suave-pagina-full.webp)

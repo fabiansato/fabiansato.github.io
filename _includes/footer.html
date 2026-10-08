@@ -1,23 +1,24 @@
-
-<!-- begin footer -->
-<footer class="footer">
-
-  {% if site.data.settings.cover__image %}
-    <div class="footer-cover">
-      <div class="cover-image">
-        <img class="lazy" data-src="{{site.data.settings.cover__image}}" alt="{{site.data.settings.title}}">
-      </div>
-    </div>
-  {% endif %}
-
-  <div class="container">
-    <div class="row">
-      <div class="col col-12">
-        {% include social-link.html %}
-        <div class="copyright">&copy; {{site.time | date: '%Y'}}. Creado por <a href="https://atom-morgan.github.io/">Fabian Sato</a>.</div>
-      </div>
-    </div>
-  </div>
+<footer class="site-footer">
+<div class="container">
+<div class="footer-top">
+<div>
+<span class="eyebrow">{% if language == 'es' %}SIGAMOS LA CONVERSACIÓN{% else %}LET'S KEEP TALKING{% endif %}</span>
+<h2>{{ t.footer_title }}</h2>
+<p>{{ t.footer_copy }}</p>
+</div>
+<a class="button button-lime" href="mailto:fabiangonzalezdev@gmail.com">{{ t.email_cta }} <span aria-hidden="true">↗</span>
+</a>
+</div>
+<div class="footer-bottom">
+<a class="wordmark" href="{{ t.home | relative_url }}">fabian<span>sato</span>.</a>
+<p>© {{ site.time | date: '%Y' }} · {{ t.footer_note }}</p>
+<div class="social-links">
+<a href="https://github.com/fabiansato">GitHub ↗</a>
+<a href="https://www.linkedin.com/in/fabiangonzalezdev">LinkedIn ↗</a>
+<a href="{{ t.links_url | relative_url }}">{% if language == 'es' %}Enlaces{% else %}Links{% endif %} ↗</a>
+<a href="#top">↑ <span class="sr-only">{{ t.top }}</span>
+</a>
+</div>
+</div>
+</div>
 </footer>
-<!-- end footer -->
-

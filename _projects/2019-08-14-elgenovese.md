@@ -1,31 +1,29 @@
 ---
-title: El Genovese - Página Oficial Argentina
-date: 2018-06-14 07:30:35 +0300
-subtitle: Desarrollo Web
-description: Cliente - Uniliver
-image: '/images/portfolio/elgenovese.jpg'
+title: "El Genovese"
+slug: "elgenovese"
+date: "2018-06-14 07:30:35 +0300"
+layout: "project"
+lang: "es"
+permalink: "/project/elgenovese"
+translation_url: "/en/project/elgenovese"
+group: "client"
+year: "Archivo"
+featured: false
+order: 22
+subtitle: "Diseño y desarrollo web"
+description: "Diseño de interfaz, desarrollo y mantenimiento de contenidos para El Genovese."
+image: "/assets/images/portfolio/elgenovese.webp"
+technologies: ["HTML", "CSS", "JavaScript", "WordPress"]
 ---
 
+Diseño de interfaz, desarrollo y mantenimiento de contenidos para El Genovese.
 
+Una experiencia web dedicada a presentar la identidad y la propuesta de El Genovese. La ficha conserva las capturas del trabajo original como referencia visual del diseño implementado.
 
-<div class="block-header inner-sm" style="margin-top: 1.5em; margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Descripción</h2>
-</div>
+## Tecnologías
 
-Programación de página web, diseño UX/UI y desarrollo de página de e-commerce. Página de oficial de El Genovese Argentina (mantenimiento de código, agregado de recetas y productos)
+HTML, CSS, JavaScript, WordPress.
 
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Tecnologías usadas</h2>
-</div>
+## Captura del proyecto
 
- Acá dejo una lista
-
-- HTML
-- CSS
-- Javascript
-- Wordpress
-
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Screenshot Completo:</h2>
-</div>
- <img src="/images/portfolio/elgenovesefull.jpg.png">
+![El Genovese](/assets/images/portfolio/elgenovesefull.webp)

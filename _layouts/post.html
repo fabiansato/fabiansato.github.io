@@ -1,61 +1,24 @@
 ---
 layout: default
 ---
-
-<div class="container">
-  <div class="post-head">
-    {% if page.tags.size >= 1 %}
-      <div class="post-tags__box">
-        {% for tag in page.tags %}
-          <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tag">{{ tag }}</a>
-        {% endfor %}
-      </div>
-    {% endif %}
-    <h1 class="post-title">{{ page.title }}</h1>
-  </div>
+{% assign language = page.lang | default: 'es' %}{% assign t = site.data.i18n[language] %}
+<article class="container article-page">
+<a class="back-link" href="{{ t.blog_url | relative_url }}">← {{ t.back_blog }}</a>
+<header class="article-heading">
+<p class="eyebrow">{{ page.category }}</p>
+<h1>{{ page.title }}</h1>
+<p class="lead">{{ page.excerpt }}</p>
+<div class="article-byline">
+<img src="{{ '/assets/images/profile/sato-avatar.webp' | relative_url }}" alt="" width="44" height="44">
+<span>Fabian Gonzalez · Sato<br>
+<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%d.%m.%Y' }}</time> · {% assign words = content | strip_html | number_of_words %}{{ words | divided_by: 200 | plus: 1 }} {{ t.minute }}</span>
 </div>
-
-{% if page.image %}
-<div class="container">
-  <div class="row">
-    <div class="col col-12">
-      <div class="post-image">
-        <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
-      </div>
-    </div>
-  </div>
+</header>
+<div class="prose">{{ content }}</div>
+<div class="article-end">
+<a class="text-link" href="{{ t.blog_url | relative_url }}">← {{ t.back_blog }}</a>
+<button class="copy-link" type="button" data-copy data-success="{{ t.copied }}" data-error="{{ t.copy_failed }}">{{ t.share }}</button>
+<span class="copy-status sr-only" aria-live="polite">
+</span>
 </div>
-{% endif %}
-
-<!-- begin post -->
-<div class="container">
-  <article class="post animate">
-
-    <div class="post__info">
-      <div class="post__author">
-        <a href="{{site.baseurl}}/acercade/" class="post__author-image">
-          <img class="lazy" data-src="{{site.data.settings.author.avatar}}" alt="{{site.data.settings.author.name}}">
-        </a>
-        <div class="post__author-info">
-          <a href="{{site.baseurl}}/acercade/" class="post__author-link">{{site.data.settings.author.name}}</a>
-          <span class="post__date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time></span>
-        </div>
-      </div>
-      {%include share.html %}
-    </div>
-
-    <div class="post__content">
-      {{ content }}
-    </div>
-
-    {% include post-navigation.html %}
-
-  </article>
-</div>
-<!-- end post -->
-
-{% include related-posts.html %}
-
-{% if site.data.settings.disqus-identifier %}
-  {% include disqus-comments.html %} 
-{% endif %}
+</article>

@@ -1,33 +1,9 @@
 ---
 layout: default
 ---
-
-<div class="container">
-  <div class="page-head">
-    <h1 class="page-title">{{ page.title }}</h1>
-  </div>
-</div>
-
-{% if page.image %}
-<div class="container">
-  <div class="row">
-    <div class="col col-12">
-      <div class="page-image">
-        <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
-      </div>
-    </div>
-  </div>
-</div>
-{% endif %}
-
-<!-- begin page -->
-<div class="container">
-  <article class="page animate">
-
-    <div class="page__content">
-      {{ content }}
-    </div>
-
-  </article>
-</div>
-<!-- end page -->
+<article class="container article-page">
+<header class="article-heading">
+<p class="eyebrow">FABIAN / SATO</p>
+<h1>{{ page.title }}</h1>{% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}</header>
+<div class="prose">{{ content }}</div>
+</article>

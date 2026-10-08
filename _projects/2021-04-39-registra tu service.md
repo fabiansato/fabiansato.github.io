@@ -1,32 +1,25 @@
 ---
-title: Data capture - Registrá tu service
-date: 2021-09-14 07:30:35 +0300
-subtitle: Trabajo junto a Oliver Argentina
-description: Cliente - Oliver
-image: '/images/portfolio/registra-tu-service.png'
+title: "Registrá tu service"
+slug: "registra-tu-service"
+date: "2021-09-14 07:30:35 +0300"
+layout: "project"
+lang: "es"
+permalink: "/project/registra-tu-service"
+translation_url: "/en/project/registra-tu-service"
+group: "client"
+year: "2021"
+featured: false
+order: 37
+subtitle: "Campaña digital · OLIVER"
+description: "Experiencia web de registro conservada bajo el nombre Registrá tu service."
+image: "/assets/images/portfolio/registra-tu-service.webp"
+technologies: ["React", "HTML", "CSS", "JavaScript", "Node.js", "MySQL", "APIs"]
 ---
 
+Experiencia web de registro conservada bajo el nombre Registrá tu service.
 
+Trabajo desarrollado con OLIVER Argentina / Ustudio. La ficha original documenta implementación UX/UI, desarrollo en React y conexión con base de datos y APIs, sin especificar una marca final.
 
-<div class="block-header inner-sm" style="margin-top: 1.5em; margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Descripción</h2>
-</div>
+## Tecnologías
 
-Data capture para la marca Registrá tu servicede Unilever, trabajado junto mi equipo Ustudio (oliver) hicimos desde el UX/UI desarrollo en react y conexión con base de datos y API externa. 
-Trabajo realizado junto con el equipo de Oliver Argentina (Ustudio).
-
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Tecnologías usadas</h2>
-</div>
-
-Si bien no serán todas las tecnologías usadas (porque son muchas más). Acá dejo una lista
-
-
-- ReactJS
-- HTML
-- CSS
-- Javascript
-- NPM
-- NodeJS
-- Mysql
-- Conexión API
+React, HTML, CSS, JavaScript, Node.js, MySQL, APIs.

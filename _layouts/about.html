@@ -1,0 +1,42 @@
+---
+layout: default
+---
+{% assign language = page.lang | default: 'es' %}{% assign t = site.data.i18n[language] %}
+<section class="container section">
+<div class="about-intro">
+<div>
+<p class="eyebrow">{{ t.eyebrow }}</p>
+<h1>{{ t.about_title }}</h1>
+<p class="lead">{{ t.about_intro }}</p>
+</div>
+<img class="about-photo" src="{{ '/assets/images/profile/fabiansato-about.webp' | relative_url }}" width="500" height="625" alt="Fabian Gonzalez">
+</div>
+<div class="about-body">{{ content }}</div>
+<h2>{{ t.skills_title }}</h2>
+<div class="expertise">
+<div>
+<h3>01 / AEM & Java</h3>
+<p>{{ t.aem_copy }}</p>
+</div>
+<div>
+<h3>02 / Frontend</h3>
+<p>{{ t.frontend_copy }}</p>
+</div>
+<div>
+<h3>03 / {{ t.approach }}</h3>
+<p>{{ t.delivery_copy }}</p>
+</div>
+</div>
+</section>
+<section class="container section" style="padding-top:0">
+<h2>{{ t.experience }}</h2>
+<div class="timeline">{% for item in site.data.experience %}<div class="timeline-item">
+<span>{{ item.period }}</span>
+<div>
+<h3>{{ item.title }}</h3>
+<p>{{ item[language] }}</p>
+</div>
+</div>{% endfor %}</div>
+<div class="education-block">
+<h2>{{ t.education }}</h2>{% if language == 'es' %}<p>Formación Full-Stack + React en la Universidad Tecnológica Nacional. Mi recorrido también incluye estudios de diseño gráfico en la UBA y formación en sistemas e informática. Esa mezcla es parte de cómo pienso y construyo para la web.</p>{% else %}<p>Full-Stack + React training at Universidad Tecnológica Nacional. My background also includes graphic design studies at UBA and education in systems and computing. That combination shapes how I think and build for the web.</p>{% endif %}</div>
+</section>

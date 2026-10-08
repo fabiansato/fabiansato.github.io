@@ -1,32 +1,25 @@
 ---
-title: Data capture - Rexona boca
-date: 2021-09-14 07:30:35 +0300
-subtitle: Trabajo junto a Oliver Argentina
-description: Cliente - Oliver
-image: '/images/portfolio/rexona-boca.jpg'
+title: "Rexona · Boca"
+slug: "rexona-boca"
+date: "2021-09-14 07:30:35 +0300"
+layout: "project"
+lang: "es"
+permalink: "/project/rexona-boca"
+translation_url: "/en/project/rexona-boca"
+group: "client"
+year: "2021"
+featured: false
+order: 38
+subtitle: "Campaña de registro · OLIVER / Unilever"
+description: "Experiencia promocional de Rexona vinculada a Boca Juniors."
+image: "/assets/images/portfolio/rexona-boca.webp"
+technologies: ["React", "HTML", "CSS", "JavaScript", "Node.js", "MySQL", "APIs"]
 ---
 
+Experiencia promocional de Rexona vinculada a Boca Juniors.
 
+Implementación visual y desarrollo del registro de participación con OLIVER Argentina / Ustudio. El proyecto forma parte de una serie de campañas deportivas de Rexona.
 
-<div class="block-header inner-sm" style="margin-top: 1.5em; margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Descripción</h2>
-</div>
+## Tecnologías
 
-Data capture para la marca Rexona bocade Unilever, trabajado junto mi equipo Ustudio (oliver) hicimos desde el UX/UI desarrollo en react y conexión con base de datos y API externa. 
-Trabajo realizado junto con el equipo de Oliver Argentina (Ustudio).
-
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Tecnologías usadas</h2>
-</div>
-
-Si bien no serán todas las tecnologías usadas (porque son muchas más). Acá dejo una lista
-
-
-- ReactJS
-- HTML
-- CSS
-- Javascript
-- NPM
-- NodeJS
-- Mysql
-- Conexión API
+React, HTML, CSS, JavaScript, Node.js, MySQL, APIs.

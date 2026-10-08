@@ -1,32 +1,25 @@
 ---
-title: Data capture - Uniliver Food Solutions
-date: 2021-09-14 07:30:35 +0300
-subtitle: Trabajo junto a Oliver Argentina
-description: Cliente - Oliver
-image: '/images/portfolio/unilever-food-solutions.jpg'
+title: "Unilever Food Solutions"
+slug: "unilever-food-solutions"
+date: "2021-09-14 07:30:35 +0300"
+layout: "project"
+lang: "es"
+permalink: "/project/unilever-food-solutions"
+translation_url: "/en/project/unilever-food-solutions"
+group: "client"
+year: "2021"
+featured: false
+order: 44
+subtitle: "Campaña de registro · OLIVER"
+description: "Landing y captura de datos para una campaña de Unilever Food Solutions."
+image: "/assets/images/portfolio/unilever-food-solutions.webp"
+technologies: ["React", "HTML", "CSS", "JavaScript", "Node.js", "MySQL", "APIs"]
 ---
 
+Landing y captura de datos para una campaña de Unilever Food Solutions.
 
+Desarrollo con OLIVER Argentina / Ustudio de la interfaz de campaña y del flujo de registro. La ficha original documenta React, base de datos e integración con APIs externas.
 
-<div class="block-header inner-sm" style="margin-top: 1.5em; margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Descripción</h2>
-</div>
+## Tecnologías
 
-Data capture para la marca Uniliver Food Solutionsde Unilever, trabajado junto mi equipo Ustudio (oliver) hicimos desde el UX/UI desarrollo en react y conexión con base de datos y API externa. 
-Trabajo realizado junto con el equipo de Oliver Argentina (Ustudio).
-
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Tecnologías usadas</h2>
-</div>
-
-Si bien no serán todas las tecnologías usadas (porque son muchas más). Acá dejo una lista
-
-
-- ReactJS
-- HTML
-- CSS
-- Javascript
-- NPM
-- NodeJS
-- Mysql
-- Conexión API
+React, HTML, CSS, JavaScript, Node.js, MySQL, APIs.

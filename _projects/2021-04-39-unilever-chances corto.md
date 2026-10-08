@@ -1,37 +1,29 @@
 ---
-title: Data capture - Uniliver Protegé tu negocio
-date: 2021-09-14 07:30:35 +0300
-subtitle: Trabajo junto a Oliver Argentina
-description: Cliente - Oliver
-image: '/images/portfolio/unilever-chances corto.jpg'
+title: "Unilever · Protegé tu negocio"
+slug: "unilever-chances-corto"
+date: "2021-09-14 07:30:35 +0300"
+layout: "project"
+lang: "es"
+permalink: "/project/unilever-chances-corto"
+translation_url: "/en/project/unilever-chances-corto"
+group: "client"
+year: "2021"
+featured: false
+order: 43
+subtitle: "Campaña de registro · OLIVER"
+description: "Experiencia de registro para la campaña Protegé tu negocio."
+image: "/assets/images/portfolio/unilever-chances corto.webp"
+technologies: ["React", "HTML", "CSS", "JavaScript", "Node.js", "MySQL", "APIs"]
 ---
 
+Experiencia de registro para la campaña Protegé tu negocio.
 
+Trabajo de implementación y captura de datos realizado junto a OLIVER Argentina / Ustudio. El archivo conserva tanto la vista de entrada como una captura extendida de la campaña.
 
-<div class="block-header inner-sm" style="margin-top: 1.5em; margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Descripción</h2>
-</div>
+## Tecnologías
 
-Data capture para la marca Uniliver Protegé tu negociode Unilever, trabajado junto mi equipo Ustudio (oliver) hicimos desde el UX/UI desarrollo en react y conexión con base de datos y API externa. 
-Trabajo realizado junto con el equipo de Oliver Argentina (Ustudio).
+React, HTML, CSS, JavaScript, Node.js, MySQL, APIs.
 
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Tecnologías usadas</h2>
-</div>
+## Captura del proyecto
 
-Si bien no serán todas las tecnologías usadas (porque son muchas más). Acá dejo una lista
-
-
-- ReactJS
-- HTML
-- CSS
-- Javascript
-- NPM
-- NodeJS
-- Mysql
-- Conexión API
-
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Screenshot Completo:</h2>
-</div>
- <img src="/images/portfolio/unilever-chances.jpg">
+![Unilever · Protegé tu negocio](/assets/images/portfolio/unilever-chances.webp)

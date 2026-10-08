@@ -1,32 +1,25 @@
 ---
-title: Data capture - Cif Registrate y participá 
-date: 2021-09-14 07:30:35 +0300
-subtitle: Trabajo junto a Oliver Argentina
-description: Cliente - Oliver
-image: '/images/portfolio/cif-registrate-y-participa.jpg'
+title: "Cif · Registrate y participá"
+slug: "cif-registrate"
+date: "2021-09-14 07:30:35 +0300"
+layout: "project"
+lang: "es"
+permalink: "/project/cif-registrate"
+translation_url: "/en/project/cif-registrate"
+group: "client"
+year: "2021"
+featured: false
+order: 31
+subtitle: "Campaña de registro · OLIVER / Unilever"
+description: "Una experiencia de participación y registro para Cif."
+image: "/assets/images/portfolio/cif-registrate-y-participa.webp"
+technologies: ["React", "HTML", "CSS", "JavaScript", "Node.js", "MySQL", "APIs"]
 ---
 
+Una experiencia de participación y registro para Cif.
 
+Implementación de la interfaz de la promoción y de su captura de datos junto al equipo de OLIVER Argentina / Ustudio. La ficha forma parte del archivo de campañas digitales de Unilever.
 
-<div class="block-header inner-sm" style="margin-top: 1.5em; margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Descripción</h2>
-</div>
+## Tecnologías
 
-Data capture para la marca Cif Registrate y participá de Unilever, trabajado junto mi equipo Ustudio (oliver) hicimos desde el UX/UI desarrollo en react y conexión con base de datos y API externa. 
-Trabajo realizado junto con el equipo de Oliver Argentina (Ustudio).
-
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Tecnologías usadas</h2>
-</div>
-
-Si bien no serán todas las tecnologías usadas (porque son muchas más). Acá dejo una lista
-
-
-- ReactJS
-- HTML
-- CSS
-- Javascript
-- NPM
-- NodeJS
-- Mysql
-- Conexión API
+React, HTML, CSS, JavaScript, Node.js, MySQL, APIs.

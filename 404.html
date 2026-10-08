@@ -1,18 +1,8 @@
-  ---
-layout: page
-title: Página no encontrada
-image: '/images/404.jpg'
-permalink: /404.html
 ---
-
-<div class="container">
-  <div class="row">
-    <div class="col col-12">
-      <div class="error">
-        <h2 class="error__title">404</h2>
-        <p class="error__text">Esta página no existe</p>
-        <a class="button button--middle error__button" href="{{site.baseurl}}/">Volver a la página de Sato</a>
-      </div>
-    </div>
-  </div>
-</div>
+layout: "default"
+title: "Página no encontrada / Page not found"
+lang: "es"
+permalink: "/404.html"
+sitemap: false
+---
+<section class="container error-page"><span class="error-code">ERROR / 404</span><h1>Esta página se tomó otro camino.</h1><p>Podés volver al inicio o explorar los proyectos y el blog.</p><a class="button button-dark" href="{{ '/' | relative_url }}">Volver al inicio ↗</a><p lang="en" style="margin-top:35px">Page not found. <a class="text-link" href="{{ '/en/' | relative_url }}">Visit the English site →</a></p></section>

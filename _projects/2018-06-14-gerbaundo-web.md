@@ -1,31 +1,29 @@
 ---
-title: Gerbaundo Hermanos Web
-date: 2018-06-14 07:30:35 +0300
-subtitle: Desarrollo Web
-description: Cliente - Gerbaundo
-image: '/images/portfolio/gerbaundo.jpg'
+title: "Gerbaundo Hermanos"
+slug: "gerbaundo-web"
+date: "2018-06-14 07:30:35 +0300"
+layout: "project"
+lang: "es"
+permalink: "/project/gerbaundo-web"
+translation_url: "/en/project/gerbaundo-web"
+group: "client"
+year: "2018"
+featured: false
+order: 20
+subtitle: "Sitio de maquinaria agrícola"
+description: "Diseño y desarrollo de un sitio para presentar tractores y maquinaria agrícola."
+image: "/assets/images/portfolio/gerbaundo.webp"
+technologies: ["HTML", "CSS", "JavaScript", "WordPress"]
 ---
 
+Diseño y desarrollo de un sitio para presentar tractores y maquinaria agrícola.
 
+El trabajo combinó diseño de interfaz y desarrollo web para organizar la oferta de maquinaria. La captura conserva la presentación de productos del sitio de aquella etapa.
 
-<div class="block-header inner-sm" style="margin-top: 1.5em; margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Descripción</h2>
-</div>
+## Tecnologías
 
-Programación de página web, diseño UX/UI y desarrollo de página de e-commerce. Página de ventas de tractores y maquinaria pesada para siembra.
+HTML, CSS, JavaScript, WordPress.
 
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Tecnologías usadas</h2>
-</div>
+## Captura del proyecto
 
- Acá dejo una lista
-
-- HTML
-- CSS
-- Javascript
-- Wordpress
-
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Screenshot Completo:</h2>
-</div>
- <img src="/images/portfolio/gerbaundofull.jpg">
+![Gerbaundo Hermanos](/assets/images/portfolio/gerbaundofull.webp)

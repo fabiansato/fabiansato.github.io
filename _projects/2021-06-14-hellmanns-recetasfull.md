@@ -1,31 +1,29 @@
 ---
-title: Hellmann's Selector de recetas - Página Oficial Argentina
-date: 2018-06-14 07:30:35 +0300
-subtitle: Desarrollo Web
-description: Cliente - Uniliver
-image: '/images/portfolio/hellmanns-recetas.jpg'
+title: "Hellmann’s · Selector de recetas"
+slug: "hellmanns-recetasfull"
+date: "2018-06-14 07:30:35 +0300"
+layout: "project"
+lang: "es"
+permalink: "/project/hellmanns-recetasfull"
+translation_url: "/en/project/hellmanns-recetasfull"
+group: "client"
+year: "Archivo"
+featured: true
+order: 4
+subtitle: "Experiencia interactiva de marca"
+description: "Una experiencia web para explorar recetas dentro del sitio de Hellmann’s Argentina."
+image: "/assets/images/portfolio/hellmanns-recetas.webp"
+technologies: ["HTML", "CSS", "JavaScript", "WordPress"]
 ---
 
+Una experiencia web para explorar recetas dentro del sitio de Hellmann’s Argentina.
 
+El proyecto original documenta desarrollo web, implementación UX/UI y mantenimiento de contenidos de recetas y productos. La captura completa conserva el diseño del selector integrado a la identidad de Hellmann’s.
 
-<div class="block-header inner-sm" style="margin-top: 1.5em; margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Descripción</h2>
-</div>
+## Tecnologías
 
-Programación de página web, diseño UX/UI y desarrollo de página de e-commerce. Webapp para la página oficial de Hellmann's Selector de recetas Argentina (mantenimiento de código, agregado de recetas y productos). La web app genera una receta según 
+HTML, CSS, JavaScript, WordPress.
 
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Tecnologías usadas</h2>
-</div>
+## Captura del proyecto
 
- Acá dejo una lista
-
-- HTML
-- CSS
-- Javascript
-- Wordpress
-
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Screenshot Completo:</h2>
-</div>
- <img src="/images/portfolio/hellmanns-recetasfull.jpg">
+![Hellmann’s · Selector de recetas](/assets/images/portfolio/hellmanns-recetasfull.webp)

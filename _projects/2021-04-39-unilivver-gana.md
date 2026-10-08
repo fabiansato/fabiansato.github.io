@@ -1,32 +1,25 @@
 ---
-title: Data capture - Uniliver Participá y ganá
-date: 2021-09-14 07:30:35 +0300
-subtitle: Trabajo junto a Oliver Argentina
-description: Cliente - Oliver
-image: '/images/portfolio/unilivver-gana.jpg'
+title: "Unilever · Participá y ganá"
+slug: "unilivver-gana"
+date: "2021-09-14 07:30:35 +0300"
+layout: "project"
+lang: "es"
+permalink: "/project/unilivver-gana"
+translation_url: "/en/project/unilivver-gana"
+group: "client"
+year: "2021"
+featured: false
+order: 45
+subtitle: "Campaña de registro · OLIVER"
+description: "Experiencia promocional de registro para Participá y ganá de Unilever."
+image: "/assets/images/portfolio/unilivver-gana.webp"
+technologies: ["React", "HTML", "CSS", "JavaScript", "Node.js", "MySQL", "APIs"]
 ---
 
+Experiencia promocional de registro para Participá y ganá de Unilever.
 
+Implementación de interfaz y captura de datos realizada con OLIVER Argentina / Ustudio. Se conserva la captura original de esta pieza del conjunto de promociones de Unilever.
 
-<div class="block-header inner-sm" style="margin-top: 1.5em; margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Descripción</h2>
-</div>
+## Tecnologías
 
-Data capture para la marca Uniliver Participá y ganá de Unilever, trabajado junto mi equipo Ustudio (oliver) hicimos desde el UX/UI desarrollo en react y conexión con base de datos y API externa. 
-Trabajo realizado junto con el equipo de Oliver Argentina (Ustudio).
-
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Tecnologías usadas</h2>
-</div>
-
-Si bien no serán todas las tecnologías usadas (porque son muchas más). Acá dejo una lista
-
-
-- ReactJS
-- HTML
-- CSS
-- Javascript
-- NPM
-- NodeJS
-- Mysql
-- Conexión API
+React, HTML, CSS, JavaScript, Node.js, MySQL, APIs.

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{% assign language = page.lang | default: 'es' %}{% assign t = site.data.i18n[language] %}
+<section class="container listing-page" data-filter-root data-initial-filter="{{ page.category_slug | default: 'all' }}">
+<header class="listing-heading">
+<p class="eyebrow">{% if page.section == 'projects' %}PORTFOLIO{% else %}BLOG{% endif %}</p>
+<h1>{% if page.section == 'projects' %}{{ t.projects_title }}{% else %}{{ t.blog_title }}{% endif %}</h1>
+<p class="lead">{% if page.section == 'projects' %}{{ t.projects_intro }}{% else %}{{ t.blog_intro }}{% endif %}</p>
+</header>
+<div class="filter-bar" data-filter-controls hidden>
+<div class="filter-buttons" role="group" aria-label="{% if language == 'es' %}Filtrar contenido{% else %}Filter content{% endif %}">
+<button data-filter="all" aria-pressed="true">{{ t.all }}</button>{% if page.section == 'projects' %}<button data-filter="client" aria-pressed="false">{{ t.client }}</button>
+<button data-filter="lab" aria-pressed="false">{{ t.lab }}</button>{% else %}<button data-filter="aem" aria-pressed="false">AEM</button>
+<button data-filter="frontend-architecture" aria-pressed="false">Frontend</button>
+<button data-filter="performance" aria-pressed="false">Performance</button>
+<button data-filter="career" aria-pressed="false">{% if language == 'es' %}Trayectoria{% else %}Career{% endif %}</button>{% endif %}</div>
+<label class="search-field">
+<span class="sr-only">{% if page.section == 'projects' %}{{ t.search_projects }}{% else %}{{ t.search_blog }}{% endif %}</span>
+<span aria-hidden="true">⌕</span>
+<input type="search" data-search-input placeholder="{% if page.section == 'projects' %}{{ t.search_projects }}{% else %}{{ t.search_blog }}{% endif %}">
+</label>
+</div>
+<p class="filter-status" aria-live="polite" data-filter-status data-label="{{ t.results }}" data-singular="{% if language == 'es' %}resultado{% else %}result{% endif %}">
+</p>
+<p class="no-results" data-no-results hidden>{{ t.no_results }}</p>{% if page.section == 'projects' %}<div class="project-grid">{% assign projects = site.projects | where: 'lang', language | sort: 'order' %}{% for project in projects %}{% include project-card.html %}{% endfor %}</div>{% else %}<div class="post-list">{% assign posts = site.posts | where: 'lang', language %}{% for post in posts %}{% include post-card.html %}{% endfor %}</div>
+<a class="text-link rss-link" href="{{ t.home | append: 'feed.xml' | relative_url }}">{{ t.rss }} ↗</a>{% endif %}</section>

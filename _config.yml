@@ -1,61 +1,68 @@
-#-------------------------------
-# General Site Settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://fabiansato.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+title: Fabián Sato
+description: "Desarrollo frontend, Adobe Experience Manager y experiencias digitales. Portfolio y blog de Fabián Sato."
+url: "https://fabiansato.github.io"
+baseurl: ""
+lang: es
+languages: [es, en]
+timezone: America/Argentina/Buenos_Aires
 
-
-#-------------------------------
-# Build Settings
 markdown: kramdown
-permalink: /:title
+highlighter: rouge
+permalink: /blog/:slug/
+strict_front_matter: true
+liquid:
+  error_mode: strict
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll/tagging
 
-paginate: 6
-paginate_path: "/blog/page/:num"
-
-
-# Collections
 collections:
   pages:
     output: true
-    permalink: /:name
+    permalink: /:name/
   posts:
     output: true
-    permalink: /blog/:slug
+    permalink: /blog/:slug/
   projects:
     output: true
-    permalink: /project/:slug
+    permalink: /project/:slug/
 
-# Pages Path
 defaults:
   - scope:
       path: ""
     values:
-      layout: "default"
+      layout: default
+      lang: es
   - scope:
       path: ""
-      type: "pages"
+      type: pages
     values:
-      layout: "page"
+      layout: page
   - scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
-      layout: "post"
+      layout: post
   - scope:
       path: ""
-      type: "projects"
+      type: projects
     values:
-      layout: "project"
+      layout: project
 
-
-# Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  /:title
+exclude:
+  - .bundle
+  - .claude
+  - .github
+  - .ruby-version
+  - bin
+  - docs
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CLAUDE.md
+  - LICENSE
+  - change.log
+  - assets/README.md
 
 sass:
   sass_dir: _sass

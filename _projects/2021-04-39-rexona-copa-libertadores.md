@@ -1,32 +1,25 @@
 ---
-title: Data capture - Rexona copa libertadores
-date: 2021-09-14 07:30:35 +0300
-subtitle: Trabajo junto a Oliver Argentina
-description: Cliente - Oliver
-image: '/images/portfolio/rexona-copa-libertadores.jpg'
+title: "Rexona · Copa Libertadores"
+slug: "rexona-copa-libertadores"
+date: "2021-09-14 07:30:35 +0300"
+layout: "project"
+lang: "es"
+permalink: "/project/rexona-copa-libertadores"
+translation_url: "/en/project/rexona-copa-libertadores"
+group: "client"
+year: "2021"
+featured: false
+order: 39
+subtitle: "Campaña de registro · OLIVER / Unilever"
+description: "Landing de participación para una campaña de Rexona vinculada a la Copa Libertadores."
+image: "/assets/images/portfolio/rexona-copa-libertadores.webp"
+technologies: ["React", "HTML", "CSS", "JavaScript", "Node.js", "MySQL", "APIs"]
 ---
 
+Landing de participación para una campaña de Rexona vinculada a la Copa Libertadores.
 
+Trabajo realizado junto a OLIVER Argentina / Ustudio. La interfaz de campaña y su flujo de captura de datos se desarrollaron con React e integración de servicios externos.
 
-<div class="block-header inner-sm" style="margin-top: 1.5em; margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Descripción</h2>
-</div>
+## Tecnologías
 
-Data capture para la marca Rexona copa libertadores de Unilever, trabajado junto mi equipo Ustudio (oliver) hicimos desde el UX/UI desarrollo en react y conexión con base de datos y API externa. 
-Trabajo realizado junto con el equipo de Oliver Argentina (Ustudio).
-
-<div class="block-header inner-sm" style="margin-bottom: 1.5em">
-  <h2 class="block-title line-top">Tecnologías usadas</h2>
-</div>
-
-Si bien no serán todas las tecnologías usadas (porque son muchas más). Acá dejo una lista
-
-
-- ReactJS
-- HTML
-- CSS
-- Javascript
-- NPM
-- NodeJS
-- Mysql
-- Conexión API
+React, HTML, CSS, JavaScript, Node.js, MySQL, APIs.

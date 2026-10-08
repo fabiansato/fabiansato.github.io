@@ -1,0 +1,87 @@
+---
+layout: default
+---
+{% assign language = page.lang | default: 'es' %}{% assign t = site.data.i18n[language] %}
+<section class="hero container">
+<div class="hero-copy">
+<p class="eyebrow">
+<span class="tiny-star" aria-hidden="true">✳</span> {{ t.eyebrow }}</p>
+<h1>{{ t.hero_title }}</h1>
+<p class="hero-intro">{{ t.hero_intro }}</p>
+<p class="hero-role">{{ t.role }}</p>
+<div class="hero-actions">
+<a class="button button-dark" href="{{ t.projects_url | relative_url }}">{{ t.view_work }} <span aria-hidden="true">↗</span>
+</a>
+<a class="text-link" href="{{ t.about_url | relative_url }}">{{ t.meet }} <span aria-hidden="true">→</span>
+</a>
+</div>
+<p class="location">
+<span aria-hidden="true">↳</span> {{ t.hero_detail }}</p>
+</div>
+<div class="portrait-wrap">
+<div class="portrait-frame">
+<img class="portrait" src="{{ '/assets/images/profile/sato-avatar-full.webp' | relative_url }}" width="428" height="544" alt="{{ t.portrait }}" fetchpriority="high">
+<span class="portrait-caption">BUENOS AIRES, AR / 34° S</span>
+</div>
+<div class="portrait-sticker">
+<span aria-hidden="true">✳</span>
+<p>{{ t.portrait_note }}</p>
+</div>
+<span class="portrait-index" aria-hidden="true">FIG. 01 — {{ t.portrait_index }}</span>
+</div>
+</section>
+<div class="container">
+<div class="facts">
+<div>
+<strong>10+</strong>
+<span>{{ t.years }}</span>
+</div>
+<div>
+<span>{{ t.focus }}</span>
+<strong>{{ t.focus_value }}</strong>
+</div>
+<div>
+<span>{{ t.approach }}</span>
+<strong>{{ t.approach_value }}</strong>
+</div>
+</div>
+</div>
+<section class="section container" aria-labelledby="selected-title">
+<p class="eyebrow">{{ t.selected }}</p>
+<div class="section-heading">
+<h2 id="selected-title">{{ t.work_title }}</h2>
+<div>
+<p>{{ t.work_intro }}</p>
+<a class="text-link" href="{{ t.projects_url | relative_url }}">{{ t.all_work }} ↗</a>
+</div>
+</div>
+<div class="project-grid">{% assign featured = site.projects | where: 'lang', language | where: 'featured', true | sort: 'order' %}{% for project in featured limit: 6 %}{% include project-card.html %}{% endfor %}</div>
+</section>
+<section class="letter-section">
+<div class="container letter-grid">
+<div>
+<p class="eyebrow">{{ t.letter_label }}</p>
+<h2>{{ t.letter_title }}</h2>
+<span class="letter-mark" aria-hidden="true">✳</span>
+</div>
+<div class="letter-copy">
+<p>{{ t.letter_1 }}</p>
+<p>{{ t.letter_2 }}</p>
+<p class="letter-sign">{{ t.letter_sign }}<br>
+<strong>Sato.</strong>
+</p>
+<a class="text-link" href="{{ t.about_url | relative_url }}">{{ t.read_story }} ↗</a>
+</div>
+</div>
+</section>
+<section class="section container">
+<p class="eyebrow">{{ t.notes_label }}</p>
+<div class="section-heading">
+<h2>{{ t.notes_title }}</h2>
+<div>
+<p>{{ t.notes_intro }}</p>
+<a class="text-link" href="{{ t.blog_url | relative_url }}">{{ t.all_notes }} ↗</a>
+</div>
+</div>
+<div class="post-list">{% assign posts = site.posts | where: 'lang', language %}{% for post in posts limit: 3 %}{% include post-card.html %}{% endfor %}</div>
+</section>

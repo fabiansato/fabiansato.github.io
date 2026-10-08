@@ -1,7 +1,7 @@
-source 'https://rubygems.org'
-gem "bundler"
-gem "jekyll"
-gem "jekyll-paginate"
-gem 'jekyll-tagging'
-gem "jekyll-sitemap"
-gem "webrick", "~> 1.7"
+source "https://rubygems.org"
+
+ruby file: ".ruby-version"
+
+gem "jekyll", "~> 4.4"
+gem "jekyll-sitemap", "~> 1.4"
+gem "webrick", "~> 1.9"
